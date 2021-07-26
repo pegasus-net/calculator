@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="calculator_base">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginStart">2dp</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="calculator_large" parent="calculator_base">
+        <item name="textSize">24sp</item>
+    </style>
+
+    <style name="calculator_small" parent="calculator_base">
+        <item name="textSize">17sp</item>
+    </style>
+
+    <style name="calculator_large_white" parent="calculator_large">
+        <item name="bgColor">@color/button_white</item>
+    </style>
+
+    <style name="calculator_large_gray" parent="calculator_large">
+        <item name="bgColor">@color/button_gray</item>
+    </style>
+
+    <style name="calculator_large_yellow" parent="calculator_large">
+        <item name="bgColor">@color/button_yellow</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <style name="calculator_small_white" parent="calculator_small">
+        <item name="bgColor">@color/button_white</item>
+    </style>
+
+    <style name="calculator_small_gray" parent="calculator_small">
+        <item name="bgColor">@color/button_gray</item>
+    </style>
+
+    <style name="calculator_small_yellow" parent="calculator_small">
+        <item name="bgColor">@color/button_yellow</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <style name="edit_as_text">
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:textColor">#FF333333</item>
+        <item name="android:textColorHint">#ff999999</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+</resources>

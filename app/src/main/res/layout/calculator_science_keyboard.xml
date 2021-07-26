@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:clipToPadding="false"
+    android:paddingStart="11dp"
+    android:paddingEnd="11dp"
+    android:paddingBottom="5dp"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.143" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.286" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.429" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.571" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.714" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.857" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_0"
+        style="@style/calculator_small_white"
+        app:buttonText="0"
+        app:inputText="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_1"
+        style="@style/calculator_small_white"
+        app:buttonText="1"
+        app:inputText="1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_2"
+        style="@style/calculator_small_white"
+        app:buttonText="2"
+        app:inputText="2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_3"
+        style="@style/calculator_small_white"
+        app:buttonText="3"
+        app:inputText="3"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_4"
+        style="@style/calculator_small_white"
+        app:buttonText="4"
+        app:inputText="4"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_5"
+        style="@style/calculator_small_white"
+        app:buttonText="5"
+        app:inputText="5"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_6"
+        style="@style/calculator_small_white"
+        app:buttonText="6"
+        app:inputText="6"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_7"
+        style="@style/calculator_small_white"
+        app:buttonText="7"
+        app:inputText="7"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_8"
+        style="@style/calculator_small_white"
+        app:buttonText="8"
+        app:inputText="8"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_9"
+        style="@style/calculator_small_white"
+        app:buttonText="9"
+        app:inputText="9"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_point"
+        style="@style/calculator_small_white"
+        app:buttonText="."
+        app:inputText="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/input_delete"
+        style="@style/calculator_small_white"
+        app:buttonImage="@drawable/cal_delete"
+        app:inputText="["
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/input_inverse"
+        style="@style/calculator_small_gray"
+        app:buttonText="arc"
+        app:inputText="i"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/input_angle"
+        style="@style/calculator_small_gray"
+        app:buttonText="rad"
+        app:inputText="r"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_sin"
+        style="@style/calculator_small_gray"
+        app:buttonText="sin"
+        app:inputText="s"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_cos"
+        style="@style/calculator_small_gray"
+        app:buttonText="cos"
+        app:inputText="c"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/input_clean"
+        style="@style/calculator_small_gray"
+        app:buttonText="C"
+        app:inputText="]"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_tan"
+        style="@style/calculator_small_gray"
+        app:buttonText="tan"
+        app:inputText="t"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_lg"
+        style="@style/calculator_small_gray"
+        app:buttonText="lg"
+        app:inputText="g"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_ln"
+        style="@style/calculator_small_gray"
+        app:buttonText="ln"
+        app:inputText="n"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_power"
+        style="@style/calculator_small_gray"
+        app:buttonText="x^y"
+        app:inputText="^"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_square"
+        style="@style/calculator_small_gray"
+        app:buttonText="√x"
+        app:inputText="√"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_percent"
+        style="@style/calculator_small_gray"
+        app:buttonText="%"
+        app:inputText="%"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/special_left"
+        style="@style/calculator_small_gray"
+        app:buttonText="("
+        app:inputText="("
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/special_right"
+        style="@style/calculator_small_gray"
+        app:buttonText=")"
+        app:inputText=")"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_factorial"
+        style="@style/calculator_small_gray"
+        app:buttonText="n!"
+        app:inputText="!"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/function_down"
+        style="@style/calculator_small_gray"
+        app:buttonText="1/x"
+        app:inputText="~"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_pi"
+        style="@style/calculator_small_gray"
+        app:buttonText="π"
+        app:inputText="p"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/number_e"
+        style="@style/calculator_small_gray"
+        app:buttonText="e"
+        app:inputText="e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/operator_div"
+        style="@style/calculator_small_gray"
+        app:buttonText="÷"
+        app:inputText="/"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/operator_mulit"
+        style="@style/calculator_small_gray"
+        app:buttonText="x"
+        app:inputText="*"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/operator_sub"
+        style="@style/calculator_small_gray"
+        app:buttonText="-"
+        app:inputText="-"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/operator_add"
+        style="@style/calculator_small_gray"
+        app:buttonText="+"
+        app:inputText="+"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+    <com.icarus.calculator.view.CalculatorInputButton
+        android:id="@+id/operator_equals"
+        style="@style/calculator_small_yellow"
+        app:buttonText="="
+        app:inputText="="
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

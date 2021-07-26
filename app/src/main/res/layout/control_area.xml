@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.icarus.calculator.view.CalculatorSetButton
+        android:id="@+id/history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        app:set_icon="@drawable/history_icon"
+        app:set_text="历史记录"
+        app:tintColor_0="#FF8696A9"
+        app:tintColor_1="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.icarus.calculator.view.CalculatorSetButton
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:set_icon="@drawable/capital_icon"
+        app:set_text="大写"
+        app:tintColor_0="#FF8696A9"
+        app:tintColor_1="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.icarus.calculator.view.CalculatorSetButton
+        android:id="@+id/vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:set_checkable="true"
+        app:set_icon="@drawable/vibrate_icon"
+        app:set_text="震动"
+        app:tintColor_0="#FF8696A9"
+        app:tintColor_1="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.icarus.calculator.view.CalculatorSetButton
+        android:id="@+id/voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:set_checkable="true"
+        app:set_icon="@drawable/voice_icon"
+        app:set_text="语音"
+        app:tintColor_0="#FF8696A9"
+        app:tintColor_1="@color/white" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.icarus.calculator.view.CalculatorSetButton
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:elevation="5dp"
+        app:set_icon="@drawable/copy_icon"
+        app:set_text="复制"
+        app:tintColor_0="#FF8696A9"
+        app:tintColor_1="@color/white" />
+</LinearLayout>
