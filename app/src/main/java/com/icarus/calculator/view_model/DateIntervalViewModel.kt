@@ -15,10 +15,10 @@ class DateIntervalViewModel {
     var minute = ObservableField<String>()
     var workDay = ObservableField<String>()
     var start = ObservableField<String>()
-    var startCalendar: Calendar
+    private var startCalendar: Calendar? = null
 
     var end = ObservableField<String>()
-    var endCalendar = Calendar.getInstance()
+    private var endCalendar: Calendar? = null
 
     private val dateFormat = SimpleDateFormat("yyyy年MM月dd日 E HH:mm", Locale.CHINA)
 
@@ -30,12 +30,8 @@ class DateIntervalViewModel {
         minute.set("0分钟")
         week.set("0周")
         workDay.set("0天")
-        val instance = Calendar.getInstance()
-        startCalendar = instance
-        endCalendar = instance
-        val date = dateFormat.format(instance.time)
-        start.set(date)
-        end.set(date)
+        start.set("请输入开始时间")
+        end.set("请输入结束时间")
     }
 
     fun showDialog(context: Context, which: Int) {
@@ -43,11 +39,11 @@ class DateIntervalViewModel {
             when (which) {
                 0 -> {
                     startCalendar = calendar
-                    start.set(dateFormat.format(startCalendar.time))
+                    start.set(dateFormat.format(calendar.time))
                 }
                 1 -> {
                     endCalendar = calendar
-                    end.set(dateFormat.format(endCalendar.time))
+                    end.set(dateFormat.format(calendar.time))
                 }
             }
         }.show()
