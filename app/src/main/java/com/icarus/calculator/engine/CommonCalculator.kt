@@ -1,6 +1,5 @@
 package com.icarus.calculator.engine
 
-import com.icarus.calculator.util.SplitExp
 import java.math.BigDecimal
 import java.math.BigInteger
 import java.math.RoundingMode
@@ -47,36 +46,32 @@ class CommonCalculator : CalculatorEngine {
     }
 
     private fun splitExp(exp: String): LinkedList<String> {
-//        val list: LinkedList<String> = LinkedList()
-//        val regex1 =
-//            "(?=\\+)|(?=-)|(?=\\*)|(?=/)|(?=\\()|(?=\\))|(?=\\^)|(?=!)|(?=√)"
-//        val regex2 =
-//            "(?<=\\+)|(?<=-)|(?<=\\*)|(?<=/)|(?<=\\()|(?<=\\))|(?<=\\^)|(?<=!)|(?<=√)"
-//        val first = exp.split(regex1)
-//        var second: List<String>
-//        for (s in first) {
-//            second = s.split(regex2)
-//            second.forEach {
-//                if (it.isNotEmpty()) {
-//                    if (it[it.length - 1] == '.' && "." != it) {
-//                        //数字 xxx. 转为 xxx。
-//                        list.add(it.substring(0, it.length - 1))
-//                    } else if (it[0] == '.' && "." != it) {
-//                        //数字 .xxx 转为 0.xxx。
-//                        list.add("0$it")
-//                    } else if (it == "-") {
-//                        //开头为负数或者 （-1）这种情况，在表达式中加0以免发生错误。
-//                        if (list.isEmpty() || list.last == "(") {
-//                            list.add("0")
-//                        }
-//                        list.add("-")
-//                    } else {
-//                        list.add(it)
-//                    }
-//                }
-//            }
-//        }
-        return SplitExp.splitExp(exp)
+        val list: LinkedList<String> = LinkedList()
+        val regex = Regex("(?=[+\\-*/()^!√])|(?<=[+\\-*/()^!√])")
+        val operateDate = exp.split(regex)
+        operateDate.forEach {
+            if (it.isNotEmpty()) {
+                if (it[it.length - 1] == '.' && "." != it) {
+                    //数字 xxx. 转为 xxx。
+                    list.add(it.substring(0, it.length - 1))
+                } else if (it[0] == '.' && "." != it) {
+                    //数字 .xxx 转为 0.xxx。
+                    list.add("0$it")
+                } else if (it == "-") {
+                    //开头为负数或者 （-1）这种情况，在表达式中加0以免发生错误。
+                    if (list.isEmpty() || list.last == "(") {
+                        list.add("0")
+                    }
+                    list.add("-")
+                } else {
+                    if (it != ".") {
+                        list.add(it)
+                    }
+                }
+            }
+        }
+
+        return list
     }
 
     private fun getSuffix(infix: LinkedList<String>): LinkedList<String> {

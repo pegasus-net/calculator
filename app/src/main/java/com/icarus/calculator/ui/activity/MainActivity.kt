@@ -12,6 +12,7 @@ import com.icarus.calculator.base.Activity
 import com.icarus.calculator.ui.fragment.CalculatorFragment
 import com.icarus.calculator.ui.fragment.ToolFragment
 import com.icarus.calculator.util.dp2px
+import dagger.hilt.android.AndroidEntryPoint
 import net.lucode.hackware.magicindicator.MagicIndicator
 import net.lucode.hackware.magicindicator.ViewPagerHelper
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator
@@ -21,6 +22,7 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTit
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.indicators.LinePagerIndicator
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView
 
+@AndroidEntryPoint
 class MainActivity : Activity() {
     private lateinit var pager: ViewPager
     private lateinit var indicator: MagicIndicator

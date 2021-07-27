@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModel
 import java.math.BigInteger
 import java.util.*
 
+
 class ConversionViewModel : ViewModel() {
 
     var binary = MutableLiveData<String>()

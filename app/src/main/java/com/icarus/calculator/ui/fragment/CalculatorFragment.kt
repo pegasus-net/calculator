@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.ImageView
 import androidx.viewpager.widget.ViewPager
 import com.icarus.calculator.R
+import dagger.hilt.android.AndroidEntryPoint
 
 class CalculatorFragment : BaseFragment() {
 

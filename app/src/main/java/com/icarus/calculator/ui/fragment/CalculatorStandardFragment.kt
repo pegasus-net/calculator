@@ -10,7 +10,10 @@ import com.icarus.calculator.engine.InputManager
 import com.icarus.calculator.R
 import com.icarus.calculator.view.CalculatorInputButton
 import com.icarus.calculator.view.CalculatorSetButton
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class CalculatorStandardFragment : BaseFragment() {
     private lateinit var keyboard: ConstraintLayout
     private lateinit var history: TextView
@@ -18,7 +21,9 @@ class CalculatorStandardFragment : BaseFragment() {
     private lateinit var scroll: ScrollView
     private val set = ArrayList<CalculatorSetButton>()
     private val key = ArrayList<CalculatorInputButton>()
-    private val inputManager = InputManager()
+
+    @Inject
+    lateinit var inputManager: InputManager
 
     override fun initData() {
         val layoutParams = keyboard.layoutParams

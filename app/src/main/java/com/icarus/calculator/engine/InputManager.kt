@@ -1,12 +1,18 @@
 package com.icarus.calculator.engine
 
 import a.icarus.utils.SpUtil
+import com.icarus.calculator.annotation.CommonCal
 import com.icarus.calculator.util.mainThread
 import com.icarus.calculator.util.subThread
 import com.icarus.calculator.util.toChinese
 import com.icarus.calculator.util.toMoney
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
-class InputManager {
+class InputManager @Inject constructor(
+    var mediaHelper: MediaHelper,
+    @CommonCal var calculator: CalculatorEngine
+) {
     enum class KeyType {
         NUMBER_1_9,
         ZERO,
@@ -56,9 +62,6 @@ class InputManager {
     var result = ""
     private var history = ""
     var inputResultsShow: ((String, String) -> Unit)? = null
-    var mediaHelper = MediaHelper()
-    var calculator = CalculatorEngineFactory.getCommonCalculator()
-
 
     fun input(key: String) {
         if (inputLock) return

@@ -6,8 +6,9 @@ import android.media.MediaPlayer
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
+import javax.inject.Inject
 
-class MediaHelper : LifecycleObserver {
+class MediaHelper @Inject constructor() : LifecycleObserver {
     private val media: MediaPlayer = MediaPlayer()
     private val assets = Icarus.getContext().assets
     private var playList = ArrayList<Char>()
