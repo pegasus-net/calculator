@@ -5,6 +5,7 @@ import a.icarus.utils.WindowUtil
 import android.widget.TextView
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
+import java.text.FieldPosition
 
 abstract class Activity : BaseActivity() {
 
@@ -19,4 +20,6 @@ abstract class Activity : BaseActivity() {
     fun setTitle(id: Int, title: String) {
         findViewById<TextView>(id).text = title
     }
+
+
 }

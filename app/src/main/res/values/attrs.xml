@@ -15,4 +15,10 @@
         <attr name="set_text" format="string" />
         <attr name="set_checkable" format="boolean" />
     </declare-styleable>
+    <declare-styleable name="DateItemView">
+        <attr name="item_name" format="string" />
+        <attr name="item_tip" format="string" />
+        <attr name="item_result" format="string" />
+        <attr name="item_last" format="boolean" />
+    </declare-styleable>
 </resources>
