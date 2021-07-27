@@ -1,5 +1,6 @@
 package com.icarus.calculator.util
 
+import a.icarus.utils.Logger
 import a.icarus.utils.ThreadManager
 import android.app.Activity
 import android.content.Context
@@ -20,7 +21,9 @@ fun <T> T.mainThread(run: () -> Unit) {
 fun <T> T.subThread(run: () -> Unit) {
     ThreadManager.runOnThreadPool(run)
 }
-
+fun <T> T.log() {
+    Logger.t(this)
+}
 fun AppCompatActivity.startActivity(clazz: Class<out Activity>) {
     val intent = Intent(this, clazz)
     startActivity(intent)

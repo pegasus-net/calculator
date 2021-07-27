@@ -12,7 +12,7 @@ import com.icarus.calculator.view_model.ConversionViewModel
 
 class HexadecimalConversionActivity : BaseActivity() {
 
-    private lateinit var binding: ConversionBinding
+    private lateinit var binding:ConversionBinding
     private lateinit var model: ConversionViewModel
 
     override fun initListener() {

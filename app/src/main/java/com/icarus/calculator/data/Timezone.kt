@@ -1,6 +1,5 @@
 package com.icarus.calculator.data
 
-import a.icarus.utils.Logger
 import com.icarus.calculator.util.toPinyin
 
 data class Timezone(val name: String, val id: String) : Comparable<Timezone> {
