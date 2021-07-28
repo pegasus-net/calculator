@@ -1,334 +1,2532 @@
 [
 	{
-		"id": "Asia/Shanghai",
-		"name": "北京/中国"
+		"chineseName": "阿比让，非洲",
+		"englishName": "Africa/Abidjan",
+		"spellName": "ABIRANG"
 	},
 	{
-		"id": "Asia/Hong_Kong",
-		"name": "香港/中国"
+		"chineseName": "阿克拉，非洲",
+		"englishName": "Africa/Accra",
+		"spellName": "AKELA"
 	},
 	{
-		"id": "Asia/Taipei",
-		"name": "台北时间 (台北)"
+		"chineseName": "亚的斯亚贝巴，非洲",
+		"englishName": "Africa/Addis_Ababa",
+		"spellName": "YADESIYABEIBA"
 	},
 	{
-		"id": "Asia/Seoul",
-		"name": "首尔"
+		"chineseName": "阿尔及尔，非洲",
+		"englishName": "Africa/Algiers",
+		"spellName": "AERJIER"
 	},
 	{
-		"id": "Asia/Tokyo",
-		"name": "东京/日本"
+		"chineseName": "阿斯马拉，非洲",
+		"englishName": "Africa/Asmera",
+		"spellName": "ASIMALA"
 	},
 	{
-		"id": "America/Denver",
-		"name": "丹佛/美国山区"
+		"chineseName": "巴马科，非洲",
+		"englishName": "Africa/Bamako",
+		"spellName": "BAMAKE"
 	},
 	{
-		"id": "America/Costa_Rica",
-		"name": "哥斯达黎加/美国中部"
+		"chineseName": "班吉，非洲",
+		"englishName": "Africa/Bangui",
+		"spellName": "BANJI"
 	},
 	{
-		"id": "America/Chicago",
-		"name": "芝加哥/美国中部"
+		"chineseName": "班珠尔，非洲",
+		"englishName": "Africa/Banjul",
+		"spellName": "BANZHUER"
 	},
 	{
-		"id": "America/Mexico_City",
-		"name": "墨西哥城/美国中部"
+		"chineseName": "比绍，非洲",
+		"englishName": "Africa/Bissau",
+		"spellName": "BISHAO"
 	},
 	{
-		"id": "America/Regina",
-		"name": "里贾纳/美国中部"
+		"chineseName": "布兰太尔，非洲",
+		"englishName": "Africa/Blantyre",
+		"spellName": "BULANTAIER"
 	},
 	{
-		"id": "Pacific/Majuro",
-		"name": "马朱罗"
+		"chineseName": "布拉柴维尔，非洲",
+		"englishName": "Africa/Brazzaville",
+		"spellName": "BULACHAIWEIER"
 	},
 	{
-		"id": "Pacific/Midway",
-		"name": "中途岛"
+		"chineseName": "布琼布拉，非洲",
+		"englishName": "Africa/Bujumbura",
+		"spellName": "BUQIONGBULA"
 	},
 	{
-		"id": "Pacific/Honolulu",
-		"name": "檀香山"
+		"chineseName": "开罗，非洲",
+		"englishName": "Africa/Cairo",
+		"spellName": "KAILUO"
 	},
 	{
-		"id": "America/Anchorage",
-		"name": "安克雷奇"
+		"chineseName": "卡萨布兰卡，非洲",
+		"englishName": "Africa/Casablanca",
+		"spellName": "KASABULANKA"
 	},
 	{
-		"id": "America/Los_Angeles",
-		"name": "洛杉矶/美国太平洋"
+		"chineseName": "休达，非洲",
+		"englishName": "Africa/Ceuta",
+		"spellName": "XIUDA"
 	},
 	{
-		"id": "America/Tijuana",
-		"name": "提华纳/美国太平洋"
+		"chineseName": "科纳克里，非洲",
+		"englishName": "Africa/Conakry",
+		"spellName": "KENAKELI"
 	},
 	{
-		"id": "America/Phoenix",
-		"name": "凤凰城美国山区"
+		"chineseName": "达喀尔，非洲",
+		"englishName": "Africa/Dakar",
+		"spellName": "DAKAER"
 	},
 	{
-		"id": "America/Chihuahua",
-		"name": "奇瓦瓦"
+		"chineseName": "达累斯萨拉姆，非洲",
+		"englishName": "Africa/Dar_es_Salaam",
+		"spellName": "DALEISISALAMU"
 	},
 	{
-		"id": "America/Bogota",
-		"name": "波哥大/哥伦比亚"
+		"chineseName": "吉布提，非洲",
+		"englishName": "Africa/Djibouti",
+		"spellName": "JIBUTI"
 	},
 	{
-		"id": "America/New_York",
-		"name": "纽约/美国东部"
+		"chineseName": "杜阿拉，非洲",
+		"englishName": "Africa/Douala",
+		"spellName": "DUALA"
 	},
 	{
-		"id": "America/Caracas",
-		"name": "加拉加斯/委内瑞拉"
+		"chineseName": "阿尤恩，非洲",
+		"englishName": "Africa/El_Aaiun",
+		"spellName": "AYOUEN"
 	},
 	{
-		"id": "America/Barbados",
-		"name": "巴巴多斯/大西洋"
+		"chineseName": "弗里敦，非洲",
+		"englishName": "Africa/Freetown",
+		"spellName": "FULIDUN"
 	},
 	{
-		"id": "America/Manaus",
-		"name": "马瑙斯/亚马逊"
+		"chineseName": "哈博罗内，非洲",
+		"englishName": "Africa/Gaborone",
+		"spellName": "HABOLUONEI"
 	},
 	{
-		"id": "America/Santiago",
-		"name": "圣地亚哥"
+		"chineseName": "哈拉雷，非洲",
+		"englishName": "Africa/Harare",
+		"spellName": "HALALEI"
 	},
 	{
-		"id": "America/St_Johns",
-		"name": "圣约翰/纽芬兰"
+		"chineseName": "约翰内斯堡，非洲",
+		"englishName": "Africa/Johannesburg",
+		"spellName": "YUEHANNEISIBAO"
 	},
 	{
-		"id": "America/Sao_Paulo",
-		"name": "圣保罗"
+		"chineseName": "朱巴，非洲",
+		"englishName": "Africa/Juba",
+		"spellName": "ZHUBA"
 	},
 	{
-		"id": "America/Argentina/Buenos_Aires",
-		"name": "布宜诺斯艾利斯"
+		"chineseName": "坎帕拉，非洲",
+		"englishName": "Africa/Kampala",
+		"spellName": "KANPALA"
 	},
 	{
-		"id": "America/Godthab",
-		"name": "戈特霍布"
+		"chineseName": "喀土穆，非洲",
+		"englishName": "Africa/Khartoum",
+		"spellName": "KATUMU"
 	},
 	{
-		"id": "America/Montevideo",
-		"name": "蒙得维的亚/乌拉圭"
+		"chineseName": "基加利，非洲",
+		"englishName": "Africa/Kigali",
+		"spellName": "JIJIALI"
 	},
 	{
-		"id": "Atlantic/South_Georgia",
-		"name": "南乔治亚"
+		"chineseName": "金沙萨，非洲",
+		"englishName": "Africa/Kinshasa",
+		"spellName": "JINSHASA"
 	},
 	{
-		"id": "Atlantic/Azores",
-		"name": "亚述尔群岛"
+		"chineseName": "拉各斯，非洲",
+		"englishName": "Africa/Lagos",
+		"spellName": "LAGESI"
 	},
 	{
-		"id": "Atlantic/Cape_Verde",
-		"name": "佛得角"
+		"chineseName": "利伯维尔，非洲",
+		"englishName": "Africa/Libreville",
+		"spellName": "LIBOWEIER"
 	},
 	{
-		"id": "Africa/Casablanca",
-		"name": "卡萨布兰卡"
+		"chineseName": "洛美，非洲",
+		"englishName": "Africa/Lome",
+		"spellName": "LUOMEI"
 	},
 	{
-		"id": "Europe/London",
-		"name": "伦敦/格林尼治"
+		"chineseName": "罗安达，非洲",
+		"englishName": "Africa/Luanda",
+		"spellName": "LUOANDA"
 	},
 	{
-		"id": "Europe/Amsterdam",
-		"name": "阿姆斯特丹/中欧"
+		"chineseName": "卢本巴希，非洲",
+		"englishName": "Africa/Lubumbashi",
+		"spellName": "LUBENBAXI"
 	},
 	{
-		"id": "Europe/Belgrade",
-		"name": "贝尔格莱德/中欧"
+		"chineseName": "卢萨卡，非洲",
+		"englishName": "Africa/Lusaka",
+		"spellName": "LUSAKA"
 	},
 	{
-		"id": "Europe/Brussels",
-		"name": "布鲁塞尔/中欧"
+		"chineseName": "马拉博，非洲",
+		"englishName": "Africa/Malabo",
+		"spellName": "MALABO"
 	},
 	{
-		"id": "Europe/Sarajevo",
-		"name": "萨拉热窝/中欧"
+		"chineseName": "马普托，非洲",
+		"englishName": "Africa/Maputo",
+		"spellName": "MAPUTUO"
 	},
 	{
-		"id": "Africa/Windhoek",
-		"name": "温得和克"
+		"chineseName": "马塞卢，非洲",
+		"englishName": "Africa/Maseru",
+		"spellName": "MASAILU"
 	},
 	{
-		"id": "Africa/Brazzaville",
-		"name": "布拉扎维/西部非洲"
+		"chineseName": "姆巴巴，非洲",
+		"englishName": "Africa/Mbabane",
+		"spellName": "MUBABA"
 	},
 	{
-		"id": "Asia/Amman",
-		"name": "安曼/东欧"
+		"chineseName": "摩加迪沙，非洲",
+		"englishName": "Africa/Mogadishu",
+		"spellName": "MOJIADISHA"
 	},
 	{
-		"id": "Europe/Athens",
-		"name": "雅典/东欧"
+		"chineseName": "蒙罗维亚，非洲",
+		"englishName": "Africa/Monrovia",
+		"spellName": "MENGLUOWEIYA"
 	},
 	{
-		"id": "Asia/Beirut",
-		"name": "贝鲁特/东欧"
+		"chineseName": "内罗毕，非洲",
+		"englishName": "Africa/Nairobi",
+		"spellName": "NEILUOBI"
 	},
 	{
-		"id": "Africa/Cairo",
-		"name": "开罗/东欧"
+		"chineseName": "恩贾梅纳，非洲",
+		"englishName": "Africa/Ndjamena",
+		"spellName": "ENJIAMEINA"
 	},
 	{
-		"id": "Europe/Helsinki",
-		"name": "赫尔辛基/东欧"
+		"chineseName": "尼亚美，非洲",
+		"englishName": "Africa/Niamey",
+		"spellName": "NIYAMEI"
 	},
 	{
-		"id": "Asia/Jerusalem",
-		"name": "耶路撒冷/以色列"
+		"chineseName": "努瓦克肖特，非洲",
+		"englishName": "Africa/Nouakchott",
+		"spellName": "NUWAKEXIAOTE"
 	},
 	{
-		"id": "Europe/Minsk",
-		"name": "明斯克"
+		"chineseName": "瓦加杜古，非洲",
+		"englishName": "Africa/Ouagadougou",
+		"spellName": "WAJIADUGU"
 	},
 	{
-		"id": "Africa/Harare",
-		"name": "哈拉雷/中部非洲"
+		"chineseName": "波多诺伏，非洲",
+		"englishName": "Africa/Porto-Novo",
+		"spellName": "BODUONUOFU"
 	},
 	{
-		"id": "Asia/Baghdad",
-		"name": "巴格达"
+		"chineseName": "圣多美，非洲",
+		"englishName": "Africa/Sao_Tome",
+		"spellName": "SHENGDUOMEI"
 	},
 	{
-		"id": "Europe/Moscow",
-		"name": "莫斯科"
+		"chineseName": "廷巴克图，非洲",
+		"englishName": "Africa/Timbuktu",
+		"spellName": "TINGBAKETU"
 	},
 	{
-		"id": "Asia/Kuwait",
-		"name": "科威特"
+		"chineseName": "的黎波里，非洲",
+		"englishName": "Africa/Tripoli",
+		"spellName": "DELIBOLI"
 	},
 	{
-		"id": "Africa/Nairobi",
-		"name": "内罗毕/东部非洲"
+		"chineseName": "突尼斯，非洲",
+		"englishName": "Africa/Tunis",
+		"spellName": "TUNISI"
 	},
 	{
-		"id": "Asia/Tehran",
-		"name": "德黑兰/伊朗"
+		"chineseName": "温得和克，非洲",
+		"englishName": "Africa/Windhoek",
+		"spellName": "WENDEHEKE"
 	},
 	{
-		"id": "Asia/Baku",
-		"name": "巴库"
+		"chineseName": "埃达克，美洲",
+		"englishName": "America/Adak",
+		"spellName": "AIDAKE"
 	},
 	{
-		"id": "Asia/Tbilisi",
-		"name": "第比利斯"
+		"chineseName": "安克雷奇，美洲",
+		"englishName": "America/Anchorage",
+		"spellName": "ANKELEIQI"
 	},
 	{
-		"id": "Asia/Yerevan",
-		"name": "埃里温"
+		"chineseName": "安圭拉，美洲",
+		"englishName": "America/Anguilla",
+		"spellName": "ANGUILA"
 	},
 	{
-		"id": "Asia/Dubai",
-		"name": "迪拜"
+		"chineseName": "安提瓜，美洲",
+		"englishName": "America/Antigua",
+		"spellName": "ANTIGUA"
 	},
 	{
-		"id": "Asia/Kabul",
-		"name": "喀布尔/阿富汗"
+		"chineseName": "阿拉圭纳，美洲",
+		"englishName": "America/Araguaina",
+		"spellName": "ALAGUINA"
 	},
 	{
-		"id": "Asia/Karachi",
-		"name": "卡拉奇"
+		"chineseName": "布宜诺斯艾利斯，美洲",
+		"englishName": "America/Argentina/Buenos_Aires",
+		"spellName": "BUYINUOSIAILISI"
 	},
 	{
-		"id": "Asia/Oral",
-		"name": "乌拉尔"
+		"chineseName": "卡塔马卡，美洲",
+		"englishName": "America/Argentina/Catamarca",
+		"spellName": "KATAMAKA"
 	},
 	{
-		"id": "Asia/Yekaterinburg",
-		"name": "叶卡捷林堡"
+		"chineseName": "里瓦达维亚海军准将城，美洲",
+		"englishName": "America/Argentina/ComodRivadavia",
+		"spellName": "LIWADAWEIYAHAIJUNZHUNJIANGCHENG"
 	},
 	{
-		"id": "Asia/Calcutta",
-		"name": "加尔各答"
+		"chineseName": "科尔多瓦，美洲",
+		"englishName": "America/Argentina/Cordoba",
+		"spellName": "KEERDUOWA"
 	},
 	{
-		"id": "Asia/Colombo",
-		"name": "科伦坡"
+		"chineseName": "胡胡伊，美洲",
+		"englishName": "America/Argentina/Jujuy",
+		"spellName": "HUHUYI"
 	},
 	{
-		"id": "Asia/Katmandu",
-		"name": "加德满都/尼泊尔"
+		"chineseName": "拉里奥哈，美洲",
+		"englishName": "America/Argentina/La_Rioja",
+		"spellName": "LALIAOHA"
 	},
 	{
-		"id": "Asia/Almaty",
-		"name": "阿拉木图"
+		"chineseName": "里奥加耶戈斯，美洲",
+		"englishName": "America/Argentina/Rio_Gallegos",
+		"spellName": "LIAOJIAYEGESI"
 	},
 	{
-		"id": "Asia/Rangoon",
-		"name": "仰光/缅甸"
+		"chineseName": "萨尔塔，美洲",
+		"englishName": "America/Argentina/Salta",
+		"spellName": "SAERTA"
 	},
 	{
-		"id": "Asia/Krasnoyarsk",
-		"name": "克拉斯诺亚尔斯克"
+		"chineseName": "圣胡安，美洲",
+		"englishName": "America/Argentina/San_Juan",
+		"spellName": "SHENGHUAN"
 	},
 	{
-		"id": "Asia/Bangkok",
-		"name": "曼谷"
+		"chineseName": "圣路易斯，美洲",
+		"englishName": "America/Argentina/San_Luis",
+		"spellName": "SHENGLUYISI"
 	},
 	{
-		"id": "Asia/Irkutsk",
-		"name": "伊尔库茨克"
+		"chineseName": "图库曼，美洲",
+		"englishName": "America/Argentina/Tucuman",
+		"spellName": "TUKUMAN"
 	},
 	{
-		"id": "Asia/Kuala_Lumpur",
-		"name": "吉隆坡"
+		"chineseName": "乌斯怀亚，美洲",
+		"englishName": "America/Argentina/Ushuaia",
+		"spellName": "WUSIHUAIYA"
 	},
 	{
-		"id": "Australia/Perth",
-		"name": "佩思"
+		"chineseName": "阿鲁巴岛，美洲",
+		"englishName": "America/Aruba",
+		"spellName": "ALUBA"
 	},
 	{
-		"id": "Asia/Yakutsk",
-		"name": "雅库茨克"
+		"chineseName": "亚松森，美洲",
+		"englishName": "America/Asuncion",
+		"spellName": "YASONGSEN"
 	},
 	{
-		"id": "Australia/Adelaide",
-		"name": "阿德莱德"
+		"chineseName": "阿蒂科肯，美洲",
+		"englishName": "America/Atikokan",
+		"spellName": "ADIKEKEN"
 	},
 	{
-		"id": "Australia/Darwin",
-		"name": "达尔文"
+		"chineseName": "阿特卡，美洲",
+		"englishName": "America/Atka",
+		"spellName": "ATEKA"
 	},
 	{
-		"id": "Australia/Brisbane",
-		"name": "布里斯班"
+		"chineseName": "巴伊亚，美洲",
+		"englishName": "America/Bahia",
+		"spellName": "BAYIYA"
 	},
 	{
-		"id": "Australia/Hobart",
-		"name": "霍巴特"
+		"chineseName": "纳亚里特，美洲",
+		"englishName": "America/Bahia_Banderas",
+		"spellName": "NAYALITE"
 	},
 	{
-		"id": "Australia/Sydney",
-		"name": "悉尼"
+		"chineseName": "巴巴多斯，美洲",
+		"englishName": "America/Barbados",
+		"spellName": "BABADUOSI"
 	},
 	{
-		"id": "Asia/Vladivostok",
-		"name": "符拉迪沃斯托克/海参崴"
+		"chineseName": "贝伦，美洲",
+		"englishName": "America/Belem",
+		"spellName": "BEILUN"
 	},
 	{
-		"id": "Pacific/Guam",
-		"name": "关岛"
+		"chineseName": "伯利兹，美洲",
+		"englishName": "America/Belize",
+		"spellName": "BOLIZI"
 	},
 	{
-		"id": "Asia/Magadan",
-		"name": "马加丹"
+		"chineseName": "勃朗萨布隆，美洲",
+		"englishName": "America/Blanc-Sablon",
+		"spellName": "BOLANGSABULONG"
 	},
 	{
-		"id": "Pacific/Auckland",
-		"name": "奥克兰"
+		"chineseName": "博阿维斯塔，美洲",
+		"englishName": "America/Boa_Vista",
+		"spellName": "BOAWEISITA"
 	},
 	{
-		"id": "Pacific/Fiji",
-		"name": "斐济"
+		"chineseName": "波哥大，美洲",
+		"englishName": "America/Bogota",
+		"spellName": "BOGEDA"
 	},
 	{
-		"id": "Pacific/Tongatapu",
-		"name": "东加塔布"
+		"chineseName": "博伊西，美洲",
+		"englishName": "America/Boise",
+		"spellName": "BOYIXI"
+	},
+	{
+		"chineseName": "剑桥湾，美洲",
+		"englishName": "America/Cambridge_Bay",
+		"spellName": "JIANQIAOWAN"
+	},
+	{
+		"chineseName": "大坎普，美洲",
+		"englishName": "America/Campo_Grande",
+		"spellName": "DAKANPU"
+	},
+	{
+		"chineseName": "坎昆，美洲",
+		"englishName": "America/Cancun",
+		"spellName": "KANKUN"
+	},
+	{
+		"chineseName": "加拉加斯，美洲",
+		"englishName": "America/Caracas",
+		"spellName": "JIALAJIASI"
+	},
+	{
+		"chineseName": "卡宴，美洲",
+		"englishName": "America/Cayenne",
+		"spellName": "KAYAN"
+	},
+	{
+		"chineseName": "开曼，美洲",
+		"englishName": "America/Cayman",
+		"spellName": "KAIMAN"
+	},
+	{
+		"chineseName": "芝加哥，美洲",
+		"englishName": "America/Chicago",
+		"spellName": "ZHIJIAGE"
+	},
+	{
+		"chineseName": "奇瓦瓦，美洲",
+		"englishName": "America/Chihuahua",
+		"spellName": "QIWAWA"
+	},
+	{
+		"chineseName": "科勒尔港，美洲",
+		"englishName": "America/Coral_Harbour",
+		"spellName": "KELEERGANG"
+	},
+	{
+		"chineseName": "哥斯达黎加，美洲",
+		"englishName": "America/Costa_Rica",
+		"spellName": "GESIDALIJIA"
+	},
+	{
+		"chineseName": "克雷斯顿，美洲",
+		"englishName": "America/Creston",
+		"spellName": "KELEISIDUN"
+	},
+	{
+		"chineseName": "库亚巴，美洲",
+		"englishName": "America/Cuiaba",
+		"spellName": "KUYABA"
+	},
+	{
+		"chineseName": "库拉索，美洲",
+		"englishName": "America/Curacao",
+		"spellName": "KULASUO"
+	},
+	{
+		"chineseName": "丹马沙，美洲",
+		"englishName": "America/Danmarkshavn",
+		"spellName": "DANMASHA"
+	},
+	{
+		"chineseName": "道森，美洲",
+		"englishName": "America/Dawson",
+		"spellName": "DAOSEN"
+	},
+	{
+		"chineseName": "道森克里克，美洲",
+		"englishName": "America/Dawson_Creek",
+		"spellName": "DAOSENKELIKE"
+	},
+	{
+		"chineseName": "丹佛，美洲",
+		"englishName": "America/Denver",
+		"spellName": "DANFO"
+	},
+	{
+		"chineseName": "底特律，美洲",
+		"englishName": "America/Detroit",
+		"spellName": "DITELU:"
+	},
+	{
+		"chineseName": "多米尼加，美洲",
+		"englishName": "America/Dominica",
+		"spellName": "DUOMINIJIA"
+	},
+	{
+		"chineseName": "埃德蒙顿，美洲",
+		"englishName": "America/Edmonton",
+		"spellName": "AIDEMENGDUN"
+	},
+	{
+		"chineseName": "埃鲁内佩，美洲",
+		"englishName": "America/Eirunepe",
+		"spellName": "AILUNEIPEI"
+	},
+	{
+		"chineseName": "萨尔瓦多，美洲",
+		"englishName": "America/El_Salvador",
+		"spellName": "SAERWADUO"
+	},
+	{
+		"chineseName": "恩塞纳达，美洲",
+		"englishName": "America/Ensenada",
+		"spellName": "ENSAINADA"
+	},
+	{
+		"chineseName": "纳尔逊堡，美洲",
+		"englishName": "America/Fort_Nelson",
+		"spellName": "NAERXUNBAO"
+	},
+	{
+		"chineseName": "韦恩堡，美洲",
+		"englishName": "America/Fort_Wayne",
+		"spellName": "WEIENBAO"
+	},
+	{
+		"chineseName": "福塔雷萨，美洲",
+		"englishName": "America/Fortaleza",
+		"spellName": "FUTALEISA"
+	},
+	{
+		"chineseName": "格莱斯贝，美洲",
+		"englishName": "America/Glace_Bay",
+		"spellName": "GELAISIBEI"
+	},
+	{
+		"chineseName": "戈特霍布，美洲",
+		"englishName": "America/Godthab",
+		"spellName": "GETEHUOBU"
+	},
+	{
+		"chineseName": "古斯湾，美洲",
+		"englishName": "America/Goose_Bay",
+		"spellName": "GUSIWAN"
+	},
+	{
+		"chineseName": "科伯恩城，美洲",
+		"englishName": "America/Grand_Turk",
+		"spellName": "KEBOENCHENG"
+	},
+	{
+		"chineseName": "格林纳达，美洲",
+		"englishName": "America/Grenada",
+		"spellName": "GELINNADA"
+	},
+	{
+		"chineseName": "瓜德罗普岛，美洲",
+		"englishName": "America/Guadeloupe",
+		"spellName": "GUADELUOPUDAO"
+	},
+	{
+		"chineseName": "危地马拉，美洲",
+		"englishName": "America/Guatemala",
+		"spellName": "WEIDIMALA"
+	},
+	{
+		"chineseName": "瓜亚基尔，美洲",
+		"englishName": "America/Guayaquil",
+		"spellName": "GUAYAJIER"
+	},
+	{
+		"chineseName": "圭亚那，美洲",
+		"englishName": "America/Guyana",
+		"spellName": "GUIYANEI"
+	},
+	{
+		"chineseName": "哈利法克斯，美洲",
+		"englishName": "America/Halifax",
+		"spellName": "HALIFAKESI"
+	},
+	{
+		"chineseName": "哈瓦那，美洲",
+		"englishName": "America/Havana",
+		"spellName": "HAWANEI"
+	},
+	{
+		"chineseName": "埃莫西约，美洲",
+		"englishName": "America/Hermosillo",
+		"spellName": "AIMOXIYUE"
+	},
+	{
+		"chineseName": "印第安纳波利斯，美洲",
+		"englishName": "America/Indiana/Indianapolis",
+		"spellName": "YINDIANNABOLISI"
+	},
+	{
+		"chineseName": "诺克斯，美洲",
+		"englishName": "America/Indiana/Knox",
+		"spellName": "NUOKESI"
+	},
+	{
+		"chineseName": "马伦戈，美洲",
+		"englishName": "America/Indiana/Marengo",
+		"spellName": "MALUNGE"
+	},
+	{
+		"chineseName": "彼得堡，美洲",
+		"englishName": "America/Indiana/Petersburg",
+		"spellName": "BIDEBAO"
+	},
+	{
+		"chineseName": "特尔城，美洲",
+		"englishName": "America/Indiana/Tell_City",
+		"spellName": "TEERCHENG"
+	},
+	{
+		"chineseName": "韦韦，美洲",
+		"englishName": "America/Indiana/Vevay",
+		"spellName": "WEIWEI"
+	},
+	{
+		"chineseName": "文森斯，美洲",
+		"englishName": "America/Indiana/Vincennes",
+		"spellName": "WENSENSI"
+	},
+	{
+		"chineseName": "威纳马克，美洲",
+		"englishName": "America/Indiana/Winamac",
+		"spellName": "WEINAMAKE"
+	},
+	{
+		"chineseName": "伊努维克，美洲",
+		"englishName": "America/Inuvik",
+		"spellName": "YINUWEIKE"
+	},
+	{
+		"chineseName": "伊卡卢伊特，美洲",
+		"englishName": "America/Iqaluit",
+		"spellName": "YIKALUYITE"
+	},
+	{
+		"chineseName": "牙买加，美洲",
+		"englishName": "America/Jamaica",
+		"spellName": "YAMAIJIA"
+	},
+	{
+		"chineseName": "朱诺，美洲",
+		"englishName": "America/Juneau",
+		"spellName": "ZHUNUO"
+	},
+	{
+		"chineseName": "蒙蒂塞洛，美洲",
+		"englishName": "America/Kentucky/Monticello",
+		"spellName": "MENGDISAILUO"
+	},
+	{
+		"chineseName": "克拉伦代克，美洲",
+		"englishName": "America/Kralendijk",
+		"spellName": "KELALUNDAIKE"
+	},
+	{
+		"chineseName": "拉巴斯，美洲",
+		"englishName": "America/La_Paz",
+		"spellName": "LABASI"
+	},
+	{
+		"chineseName": "利马，美洲",
+		"englishName": "America/Lima",
+		"spellName": "LIMA"
+	},
+	{
+		"chineseName": "洛杉矶，美洲",
+		"englishName": "America/Los_Angeles",
+		"spellName": "LUOSHANJI"
+	},
+	{
+		"chineseName": "路易斯维尔，美洲",
+		"englishName": "America/Louisville",
+		"spellName": "LUYISIWEIER"
+	},
+	{
+		"chineseName": "荷属圣马丁，美洲",
+		"englishName": "America/Lower_Princes",
+		"spellName": "HESHUSHENGMADING"
+	},
+	{
+		"chineseName": "马塞约，美洲",
+		"englishName": "America/Maceio",
+		"spellName": "MASAIYUE"
+	},
+	{
+		"chineseName": "马那瓜，美洲",
+		"englishName": "America/Managua",
+		"spellName": "MANEIGUA"
+	},
+	{
+		"chineseName": "马瑙斯，美洲",
+		"englishName": "America/Manaus",
+		"spellName": "MANAOSI"
+	},
+	{
+		"chineseName": "马里戈特，美洲",
+		"englishName": "America/Marigot",
+		"spellName": "MALIGETE"
+	},
+	{
+		"chineseName": "马提尼克，美洲",
+		"englishName": "America/Martinique",
+		"spellName": "MATINIKE"
+	},
+	{
+		"chineseName": "马塔莫罗斯，美洲",
+		"englishName": "America/Matamoros",
+		"spellName": "MATAMOLUOSI"
+	},
+	{
+		"chineseName": "马萨特兰，美洲",
+		"englishName": "America/Mazatlan",
+		"spellName": "MASATELAN"
+	},
+	{
+		"chineseName": "门多萨，美洲",
+		"englishName": "America/Mendoza",
+		"spellName": "MENDUOSA"
+	},
+	{
+		"chineseName": "梅诺米尼，美洲",
+		"englishName": "America/Menominee",
+		"spellName": "MEINUOMINI"
+	},
+	{
+		"chineseName": "梅里达，美洲",
+		"englishName": "America/Merida",
+		"spellName": "MEILIDA"
+	},
+	{
+		"chineseName": "梅特拉卡特拉，美洲",
+		"englishName": "America/Metlakatla",
+		"spellName": "MEITELAKATELA"
+	},
+	{
+		"chineseName": "墨西哥城，美洲",
+		"englishName": "America/Mexico_City",
+		"spellName": "MOXIGECHENG"
+	},
+	{
+		"chineseName": "密克隆，美洲",
+		"englishName": "America/Miquelon",
+		"spellName": "MIKELONG"
+	},
+	{
+		"chineseName": "蒙克顿，美洲",
+		"englishName": "America/Moncton",
+		"spellName": "MENGKEDUN"
+	},
+	{
+		"chineseName": "蒙特雷，美洲",
+		"englishName": "America/Monterrey",
+		"spellName": "MENGTELEI"
+	},
+	{
+		"chineseName": "蒙得维的亚，美洲",
+		"englishName": "America/Montevideo",
+		"spellName": "MENGDEWEIDEYA"
+	},
+	{
+		"chineseName": "蒙特利尔，美洲",
+		"englishName": "America/Montreal",
+		"spellName": "MENGTELIER"
+	},
+	{
+		"chineseName": "蒙特塞拉特，美洲",
+		"englishName": "America/Montserrat",
+		"spellName": "MENGTESAILATE"
+	},
+	{
+		"chineseName": "拿骚，美洲",
+		"englishName": "America/Nassau",
+		"spellName": "NASAO"
+	},
+	{
+		"chineseName": "纽约，美洲",
+		"englishName": "America/New_York",
+		"spellName": "NIUYUE"
+	},
+	{
+		"chineseName": "尼皮贡，美洲",
+		"englishName": "America/Nipigon",
+		"spellName": "NIPIGONG"
+	},
+	{
+		"chineseName": "诺姆，美洲",
+		"englishName": "America/Nome",
+		"spellName": "NUOMU"
+	},
+	{
+		"chineseName": "诺罗尼亚，美洲",
+		"englishName": "America/Noronha",
+		"spellName": "NUOLUONIYA"
+	},
+	{
+		"chineseName": "比尤拉，美洲",
+		"englishName": "America/North_Dakota/Beulah",
+		"spellName": "BIYOULA"
+	},
+	{
+		"chineseName": "北达科他中部，美洲",
+		"englishName": "America/North_Dakota/Center",
+		"spellName": "BEIDAKETAZHONGBU"
+	},
+	{
+		"chineseName": "新塞勒姆，美洲",
+		"englishName": "America/North_Dakota/New_Salem",
+		"spellName": "XINSAILEMU"
+	},
+	{
+		"chineseName": "奥希纳加，美洲",
+		"englishName": "America/Ojinaga",
+		"spellName": "AOXINAJIA"
+	},
+	{
+		"chineseName": "巴拿马，美洲",
+		"englishName": "America/Panama",
+		"spellName": "BANAMA"
+	},
+	{
+		"chineseName": "庞纳唐，美洲",
+		"englishName": "America/Pangnirtung",
+		"spellName": "PANGNATANG"
+	},
+	{
+		"chineseName": "帕拉马里博，美洲",
+		"englishName": "America/Paramaribo",
+		"spellName": "PALAMALIBO"
+	},
+	{
+		"chineseName": "菲尼克斯，美洲",
+		"englishName": "America/Phoenix",
+		"spellName": "FEINIKESI"
+	},
+	{
+		"chineseName": "太子港，美洲",
+		"englishName": "America/Port-au-Prince",
+		"spellName": "TAIZIGANG"
+	},
+	{
+		"chineseName": "西班牙港，美洲",
+		"englishName": "America/Port_of_Spain",
+		"spellName": "XIBANYAGANG"
+	},
+	{
+		"chineseName": "阿克里港，美洲",
+		"englishName": "America/Porto_Acre",
+		"spellName": "AKELIGANG"
+	},
+	{
+		"chineseName": "波多韦柳，美洲",
+		"englishName": "America/Porto_Velho",
+		"spellName": "BODUOWEILIU"
+	},
+	{
+		"chineseName": "波多黎各，美洲",
+		"englishName": "America/Puerto_Rico",
+		"spellName": "BODUOLIGE"
+	},
+	{
+		"chineseName": "雷尼里弗，美洲",
+		"englishName": "America/Rainy_River",
+		"spellName": "LEINILIFU"
+	},
+	{
+		"chineseName": "兰金因莱特，美洲",
+		"englishName": "America/Rankin_Inlet",
+		"spellName": "LANJINYINLAITE"
+	},
+	{
+		"chineseName": "累西腓，美洲",
+		"englishName": "America/Recife",
+		"spellName": "LEIXIFEI"
+	},
+	{
+		"chineseName": "里贾纳，美洲",
+		"englishName": "America/Regina",
+		"spellName": "LIJIANA"
+	},
+	{
+		"chineseName": "雷索卢特，美洲",
+		"englishName": "America/Resolute",
+		"spellName": "LEISUOLUTE"
+	},
+	{
+		"chineseName": "里奥布朗库，美洲",
+		"englishName": "America/Rio_Branco",
+		"spellName": "LIAOBULANGKU"
+	},
+	{
+		"chineseName": "罗萨里奥，美洲",
+		"englishName": "America/Rosario",
+		"spellName": "LUOSALIAO"
+	},
+	{
+		"chineseName": "下加利福尼亚，美洲",
+		"englishName": "America/Santa_Isabel",
+		"spellName": "XIAJIALIFUNIYA"
+	},
+	{
+		"chineseName": "圣塔伦，美洲",
+		"englishName": "America/Santarem",
+		"spellName": "SHENGTALUN"
+	},
+	{
+		"chineseName": "圣地亚哥，美洲",
+		"englishName": "America/Santiago",
+		"spellName": "SHENGDIYAGE"
+	},
+	{
+		"chineseName": "圣多明各，美洲",
+		"englishName": "America/Santo_Domingo",
+		"spellName": "SHENGDUOMINGGE"
+	},
+	{
+		"chineseName": "圣保罗，美洲",
+		"englishName": "America/Sao_Paulo",
+		"spellName": "SHENGBAOLUO"
+	},
+	{
+		"chineseName": "斯科斯比松，美洲",
+		"englishName": "America/Scoresbysund",
+		"spellName": "SIKESIBISONG"
+	},
+	{
+		"chineseName": "希普罗克，美洲",
+		"englishName": "America/Shiprock",
+		"spellName": "XIPULUOKE"
+	},
+	{
+		"chineseName": "锡特卡，美洲",
+		"englishName": "America/Sitka",
+		"spellName": "XITEKA"
+	},
+	{
+		"chineseName": "圣巴泰勒米，美洲",
+		"englishName": "America/St_Barthelemy",
+		"spellName": "SHENGBATAILEMI"
+	},
+	{
+		"chineseName": "圣约翰斯，美洲",
+		"englishName": "America/St_Johns",
+		"spellName": "SHENGYUEHANSI"
+	},
+	{
+		"chineseName": "圣基茨，美洲",
+		"englishName": "America/St_Kitts",
+		"spellName": "SHENGJICI"
+	},
+	{
+		"chineseName": "圣卢西亚，美洲",
+		"englishName": "America/St_Lucia",
+		"spellName": "SHENGLUXIYA"
+	},
+	{
+		"chineseName": "圣托马斯，美洲",
+		"englishName": "America/St_Thomas",
+		"spellName": "SHENGTUOMASI"
+	},
+	{
+		"chineseName": "圣文森特，美洲",
+		"englishName": "America/St_Vincent",
+		"spellName": "SHENGWENSENTE"
+	},
+	{
+		"chineseName": "斯威夫特卡伦特，美洲",
+		"englishName": "America/Swift_Current",
+		"spellName": "SIWEIFUTEKALUNTE"
+	},
+	{
+		"chineseName": "特古西加尔巴，美洲",
+		"englishName": "America/Tegucigalpa",
+		"spellName": "TEGUXIJIAERBA"
+	},
+	{
+		"chineseName": "图勒，美洲",
+		"englishName": "America/Thule",
+		"spellName": "TULE"
+	},
+	{
+		"chineseName": "桑德贝，美洲",
+		"englishName": "America/Thunder_Bay",
+		"spellName": "SANGDEBEI"
+	},
+	{
+		"chineseName": "蒂华纳，美洲",
+		"englishName": "America/Tijuana",
+		"spellName": "DIHUANA"
+	},
+	{
+		"chineseName": "多伦多，美洲",
+		"englishName": "America/Toronto",
+		"spellName": "DUOLUNDUO"
+	},
+	{
+		"chineseName": "托尔托拉，美洲",
+		"englishName": "America/Tortola",
+		"spellName": "TUOERTUOLA"
+	},
+	{
+		"chineseName": "温哥华，美洲",
+		"englishName": "America/Vancouver",
+		"spellName": "WENGEHUA"
+	},
+	{
+		"chineseName": "维尔京，美洲",
+		"englishName": "America/Virgin",
+		"spellName": "WEIERJING"
+	},
+	{
+		"chineseName": "白马，美洲",
+		"englishName": "America/Whitehorse",
+		"spellName": "BAIMA"
+	},
+	{
+		"chineseName": "温尼伯，美洲",
+		"englishName": "America/Winnipeg",
+		"spellName": "WENNIBO"
+	},
+	{
+		"chineseName": "亚库塔特，美洲",
+		"englishName": "America/Yakutat",
+		"spellName": "YAKUTATE"
+	},
+	{
+		"chineseName": "耶洛奈夫，美洲",
+		"englishName": "America/Yellowknife",
+		"spellName": "YELUONAIFU"
+	},
+	{
+		"chineseName": "凯西，南极洲",
+		"englishName": "Antarctica/Casey",
+		"spellName": "KAIXI"
+	},
+	{
+		"chineseName": "戴维斯，南极洲",
+		"englishName": "Antarctica/Davis",
+		"spellName": "DAIWEISI"
+	},
+	{
+		"chineseName": "杜蒙杜尔维尔，南极洲",
+		"englishName": "Antarctica/DumontDUrville",
+		"spellName": "DUMENGDUERWEIER"
+	},
+	{
+		"chineseName": "麦格理，南极洲",
+		"englishName": "Antarctica/Macquarie",
+		"spellName": "MAIGELI"
+	},
+	{
+		"chineseName": "莫森，南极洲",
+		"englishName": "Antarctica/Mawson",
+		"spellName": "MOSEN"
+	},
+	{
+		"chineseName": "麦克默多，南极洲",
+		"englishName": "Antarctica/McMurdo",
+		"spellName": "MAIKEMODUO"
+	},
+	{
+		"chineseName": "帕尔默，南极洲",
+		"englishName": "Antarctica/Palmer",
+		"spellName": "PAERMO"
+	},
+	{
+		"chineseName": "路德，南极洲",
+		"englishName": "Antarctica/Rothera",
+		"spellName": "LUDE"
+	},
+	{
+		"chineseName": "南极，南极洲",
+		"englishName": "Antarctica/South_Pole",
+		"spellName": "NANJI"
+	},
+	{
+		"chineseName": "沃斯托克，南极洲",
+		"englishName": "Antarctica/Vostok",
+		"spellName": "WOSITUOKE"
+	},
+	{
+		"chineseName": "朗伊尔城，北极",
+		"englishName": "Arctic/Longyearbyen",
+		"spellName": "LANGYIERCHENG"
+	},
+	{
+		"chineseName": "亚丁，亚洲",
+		"englishName": "Asia/Aden",
+		"spellName": "YADING"
+	},
+	{
+		"chineseName": "阿拉木图，亚洲",
+		"englishName": "Asia/Almaty",
+		"spellName": "ALAMUTU"
+	},
+	{
+		"chineseName": "安曼，亚洲",
+		"englishName": "Asia/Amman",
+		"spellName": "ANMAN"
+	},
+	{
+		"chineseName": "阿纳德尔，亚洲",
+		"englishName": "Asia/Anadyr",
+		"spellName": "ANADEER"
+	},
+	{
+		"chineseName": "阿克陶，亚洲",
+		"englishName": "Asia/Aqtau",
+		"spellName": "AKETAO"
+	},
+	{
+		"chineseName": "阿克托别，亚洲",
+		"englishName": "Asia/Aqtobe",
+		"spellName": "AKETUOBIE"
+	},
+	{
+		"chineseName": "阿什哈巴德，亚洲",
+		"englishName": "Asia/Ashkhabad",
+		"spellName": "ASHENHABADE"
+	},
+	{
+		"chineseName": "阿特劳，亚洲",
+		"englishName": "Asia/Atyrau",
+		"spellName": "ATELAO"
+	},
+	{
+		"chineseName": "巴格达，亚洲",
+		"englishName": "Asia/Baghdad",
+		"spellName": "BAGEDA"
+	},
+	{
+		"chineseName": "巴林，亚洲",
+		"englishName": "Asia/Bahrain",
+		"spellName": "BALIN"
+	},
+	{
+		"chineseName": "巴库，亚洲",
+		"englishName": "Asia/Baku",
+		"spellName": "BAKU"
+	},
+	{
+		"chineseName": "曼谷，亚洲",
+		"englishName": "Asia/Bangkok",
+		"spellName": "MANGU"
+	},
+	{
+		"chineseName": "巴尔瑙尔，亚洲",
+		"englishName": "Asia/Barnaul",
+		"spellName": "BAERNAOER"
+	},
+	{
+		"chineseName": "贝鲁特，亚洲",
+		"englishName": "Asia/Beirut",
+		"spellName": "BEILUTE"
+	},
+	{
+		"chineseName": "比什凯克，亚洲",
+		"englishName": "Asia/Bishkek",
+		"spellName": "BISHENKAIKE"
+	},
+	{
+		"chineseName": "文莱，亚洲",
+		"englishName": "Asia/Brunei",
+		"spellName": "WENLAI"
+	},
+	{
+		"chineseName": "加尔各答，亚洲",
+		"englishName": "Asia/Calcutta",
+		"spellName": "JIAERGEDA"
+	},
+	{
+		"chineseName": "赤塔，亚洲",
+		"englishName": "Asia/Chita",
+		"spellName": "CHITA"
+	},
+	{
+		"chineseName": "乔巴山，亚洲",
+		"englishName": "Asia/Choibalsan",
+		"spellName": "QIAOBASHAN"
+	},
+	{
+		"chineseName": "重庆，中国",
+		"englishName": "Asia/Chongqing",
+		"spellName": "CHONGQING"
+	},
+	{
+		"chineseName": "科伦坡，亚洲",
+		"englishName": "Asia/Colombo",
+		"spellName": "KELUNPO"
+	},
+	{
+		"chineseName": "达卡，亚洲",
+		"englishName": "Asia/Dacca",
+		"spellName": "DAKA"
+	},
+	{
+		"chineseName": "大马士革，亚洲",
+		"englishName": "Asia/Damascus",
+		"spellName": "DAMASHIGE"
+	},
+	{
+		"chineseName": "帝力，亚洲",
+		"englishName": "Asia/Dili",
+		"spellName": "DILI"
+	},
+	{
+		"chineseName": "迪拜，亚洲",
+		"englishName": "Asia/Dubai",
+		"spellName": "DIBAI"
+	},
+	{
+		"chineseName": "杜尚别，亚洲",
+		"englishName": "Asia/Dushanbe",
+		"spellName": "DUSHANGBIE"
+	},
+	{
+		"chineseName": "法马古斯塔，亚洲",
+		"englishName": "Asia/Famagusta",
+		"spellName": "FAMAGUSITA"
+	},
+	{
+		"chineseName": "加沙，亚洲",
+		"englishName": "Asia/Gaza",
+		"spellName": "JIASHA"
+	},
+	{
+		"chineseName": "哈尔滨，亚洲",
+		"englishName": "Asia/Harbin",
+		"spellName": "HAERBIN"
+	},
+	{
+		"chineseName": "希伯伦，亚洲",
+		"englishName": "Asia/Hebron",
+		"spellName": "XIBOLUN"
+	},
+	{
+		"chineseName": "胡志明市，亚洲",
+		"englishName": "Asia/Ho_Chi_Minh",
+		"spellName": "HUZHIMINGSHI"
+	},
+	{
+		"chineseName": "香港，中国",
+		"englishName": "Asia/Hong_Kong",
+		"spellName": "XIANGGANG"
+	},
+	{
+		"chineseName": "科布多，亚洲",
+		"englishName": "Asia/Hovd",
+		"spellName": "KEBUDUO"
+	},
+	{
+		"chineseName": "伊尔库茨克，亚洲",
+		"englishName": "Asia/Irkutsk",
+		"spellName": "YIERKUCIKE"
+	},
+	{
+		"chineseName": "伊斯坦布尔，亚洲",
+		"englishName": "Asia/Istanbul",
+		"spellName": "YISITANBUER"
+	},
+	{
+		"chineseName": "雅加达，亚洲",
+		"englishName": "Asia/Jakarta",
+		"spellName": "YAJIADA"
+	},
+	{
+		"chineseName": "查亚普拉，亚洲",
+		"englishName": "Asia/Jayapura",
+		"spellName": "CHAYAPULA"
+	},
+	{
+		"chineseName": "耶路撒冷，亚洲",
+		"englishName": "Asia/Jerusalem",
+		"spellName": "YELUSALENG"
+	},
+	{
+		"chineseName": "喀布尔，亚洲",
+		"englishName": "Asia/Kabul",
+		"spellName": "KABUER"
+	},
+	{
+		"chineseName": "堪察加，亚洲",
+		"englishName": "Asia/Kamchatka",
+		"spellName": "KANCHAJIA"
+	},
+	{
+		"chineseName": "卡拉奇，亚洲",
+		"englishName": "Asia/Karachi",
+		"spellName": "KALAQI"
+	},
+	{
+		"chineseName": "喀什，亚洲",
+		"englishName": "Asia/Kashgar",
+		"spellName": "KASHEN"
+	},
+	{
+		"chineseName": "加德满都，亚洲",
+		"englishName": "Asia/Kathmandu",
+		"spellName": "JIADEMANDOU"
+	},
+	{
+		"chineseName": "汉德加，亚洲",
+		"englishName": "Asia/Khandyga",
+		"spellName": "HANDEJIA"
+	},
+	{
+		"chineseName": "克拉斯诺亚尔斯克，亚洲",
+		"englishName": "Asia/Krasnoyarsk",
+		"spellName": "KELASINUOYAERSIKE"
+	},
+	{
+		"chineseName": "吉隆坡，亚洲",
+		"englishName": "Asia/Kuala_Lumpur",
+		"spellName": "JILONGPO"
+	},
+	{
+		"chineseName": "古晋，亚洲",
+		"englishName": "Asia/Kuching",
+		"spellName": "GUJIN"
+	},
+	{
+		"chineseName": "科威特，亚洲",
+		"englishName": "Asia/Kuwait",
+		"spellName": "KEWEITE"
+	},
+	{
+		"chineseName": "澳门，中国",
+		"englishName": "Asia/Macao",
+		"spellName": "AOMEN"
+	},
+	{
+		"chineseName": "马加丹，亚洲",
+		"englishName": "Asia/Magadan",
+		"spellName": "MAJIADAN"
+	},
+	{
+		"chineseName": "望加锡，亚洲",
+		"englishName": "Asia/Makassar",
+		"spellName": "WANGJIAXI"
+	},
+	{
+		"chineseName": "马尼拉，亚洲",
+		"englishName": "Asia/Manila",
+		"spellName": "MANILA"
+	},
+	{
+		"chineseName": "马斯喀特，亚洲",
+		"englishName": "Asia/Muscat",
+		"spellName": "MASIKATE"
+	},
+	{
+		"chineseName": "尼科西亚，亚洲",
+		"englishName": "Asia/Nicosia",
+		"spellName": "NIKEXIYA"
+	},
+	{
+		"chineseName": "新库兹涅茨克，亚洲",
+		"englishName": "Asia/Novokuznetsk",
+		"spellName": "XINKUZINIECIKE"
+	},
+	{
+		"chineseName": "新西伯利亚，亚洲",
+		"englishName": "Asia/Novosibirsk",
+		"spellName": "XINXIBOLIYA"
+	},
+	{
+		"chineseName": "鄂木斯克，亚洲",
+		"englishName": "Asia/Omsk",
+		"spellName": "EMUSIKE"
+	},
+	{
+		"chineseName": "乌拉尔斯克，亚洲",
+		"englishName": "Asia/Oral",
+		"spellName": "WULAERSIKE"
+	},
+	{
+		"chineseName": "金边，亚洲",
+		"englishName": "Asia/Phnom_Penh",
+		"spellName": "JINBIAN"
+	},
+	{
+		"chineseName": "坤甸，亚洲",
+		"englishName": "Asia/Pontianak",
+		"spellName": "KUNDIAN"
+	},
+	{
+		"chineseName": "平壤，亚洲",
+		"englishName": "Asia/Pyongyang",
+		"spellName": "PINGRANG"
+	},
+	{
+		"chineseName": "卡塔尔，亚洲",
+		"englishName": "Asia/Qatar",
+		"spellName": "KATAER"
+	},
+	{
+		"chineseName": "克孜勒奥尔达，亚洲",
+		"englishName": "Asia/Qyzylorda",
+		"spellName": "KEZILEAOERDA"
+	},
+	{
+		"chineseName": "利雅得，亚洲",
+		"englishName": "Asia/Riyadh",
+		"spellName": "LIYADE"
+	},
+	{
+		"chineseName": "萨哈林，亚洲",
+		"englishName": "Asia/Sakhalin",
+		"spellName": "SAHALIN"
+	},
+	{
+		"chineseName": "撒马尔罕，亚洲",
+		"englishName": "Asia/Samarkand",
+		"spellName": "SAMAERHAN"
+	},
+	{
+		"chineseName": "首尔，亚洲",
+		"englishName": "Asia/Seoul",
+		"spellName": "HANCHENG"
+	},
+	{
+		"chineseName": "北京，中国",
+		"englishName": "Asia/Shanghai",
+		"spellName": "SHANGHAI"
+	},
+	{
+		"chineseName": "新加坡，亚洲",
+		"englishName": "Asia/Singapore",
+		"spellName": "XINJIAPO"
+	},
+	{
+		"chineseName": "中科雷姆斯克，亚洲",
+		"englishName": "Asia/Srednekolymsk",
+		"spellName": "ZHONGKELEIMUSIKE"
+	},
+	{
+		"chineseName": "台北，中国",
+		"englishName": "Asia/Taipei",
+		"spellName": "TAIBEI"
+	},
+	{
+		"chineseName": "塔什干，亚洲",
+		"englishName": "Asia/Tashkent",
+		"spellName": "TASHENGAN"
+	},
+	{
+		"chineseName": "第比利斯，亚洲",
+		"englishName": "Asia/Tbilisi",
+		"spellName": "DIBILISI"
+	},
+	{
+		"chineseName": "德黑兰，亚洲",
+		"englishName": "Asia/Tehran",
+		"spellName": "DEHEILAN"
+	},
+	{
+		"chineseName": "特拉维夫，亚洲",
+		"englishName": "Asia/Tel_Aviv",
+		"spellName": "TELAWEIFU"
+	},
+	{
+		"chineseName": "廷布，亚洲",
+		"englishName": "Asia/Thimbu",
+		"spellName": "TINGBU"
+	},
+	{
+		"chineseName": "东京，亚洲",
+		"englishName": "Asia/Tokyo",
+		"spellName": "DONGJING"
+	},
+	{
+		"chineseName": "托木斯克，亚洲",
+		"englishName": "Asia/Tomsk",
+		"spellName": "TUOMUSIKE"
+	},
+	{
+		"chineseName": "乌兰巴托，亚洲",
+		"englishName": "Asia/Ulaanbaatar",
+		"spellName": "WULANBATUO"
+	},
+	{
+		"chineseName": "乌鲁木齐，亚洲",
+		"englishName": "Asia/Urumqi",
+		"spellName": "WULUMUQI"
+	},
+	{
+		"chineseName": "乌斯季挪拉，亚洲",
+		"englishName": "Asia/Ust-Nera",
+		"spellName": "WUSIJINUOLA"
+	},
+	{
+		"chineseName": "万象，亚洲",
+		"englishName": "Asia/Vientiane",
+		"spellName": "WANXIANG"
+	},
+	{
+		"chineseName": "符拉迪沃斯托克，亚洲",
+		"englishName": "Asia/Vladivostok",
+		"spellName": "FULADIWOSITUOKE"
+	},
+	{
+		"chineseName": "雅库茨克，亚洲",
+		"englishName": "Asia/Yakutsk",
+		"spellName": "YAKUCIKE"
+	},
+	{
+		"chineseName": "仰光，亚洲",
+		"englishName": "Asia/Yangon",
+		"spellName": "YANGGUANG"
+	},
+	{
+		"chineseName": "叶卡捷琳堡，亚洲",
+		"englishName": "Asia/Yekaterinburg",
+		"spellName": "YEKAJIELINBAO"
+	},
+	{
+		"chineseName": "埃里温，亚洲",
+		"englishName": "Asia/Yerevan",
+		"spellName": "AILIWEN"
+	},
+	{
+		"chineseName": "亚速尔群岛，大西洋",
+		"englishName": "Atlantic/Azores",
+		"spellName": "YASUERQUNDAO"
+	},
+	{
+		"chineseName": "百慕大，大西洋",
+		"englishName": "Atlantic/Bermuda",
+		"spellName": "BAIMUDA"
+	},
+	{
+		"chineseName": "加那利，大西洋",
+		"englishName": "Atlantic/Canary",
+		"spellName": "JIANEILI"
+	},
+	{
+		"chineseName": "佛得角，大西洋",
+		"englishName": "Atlantic/Cape_Verde",
+		"spellName": "FODEJIAO"
+	},
+	{
+		"chineseName": "法罗，大西洋",
+		"englishName": "Atlantic/Faroe",
+		"spellName": "FALUO"
+	},
+	{
+		"chineseName": "扬马延岛，大西洋",
+		"englishName": "Atlantic/Jan_Mayen",
+		"spellName": "YANGMAYANDAO"
+	},
+	{
+		"chineseName": "马德拉，大西洋",
+		"englishName": "Atlantic/Madeira",
+		"spellName": "MADELA"
+	},
+	{
+		"chineseName": "雷克雅未克，大西洋",
+		"englishName": "Atlantic/Reykjavik",
+		"spellName": "LEIKEYAWEIKE"
+	},
+	{
+		"chineseName": "南乔治亚，大西洋",
+		"englishName": "Atlantic/South_Georgia",
+		"spellName": "NANQIAOZHIYA"
+	},
+	{
+		"chineseName": "圣赫勒拿岛，大西洋",
+		"englishName": "Atlantic/St_Helena",
+		"spellName": "SHENGHELENADAO"
+	},
+	{
+		"chineseName": "斯坦利，大西洋",
+		"englishName": "Atlantic/Stanley",
+		"spellName": "SITANLI"
+	},
+	{
+		"chineseName": "澳大利亚首都特区，澳大利亚",
+		"englishName": "Australia/ACT",
+		"spellName": "AODALIYASHOUDOUTEQU"
+	},
+	{
+		"chineseName": "阿德莱德，澳大利亚",
+		"englishName": "Australia/Adelaide",
+		"spellName": "ADELAIDE"
+	},
+	{
+		"chineseName": "布里斯班，澳大利亚",
+		"englishName": "Australia/Brisbane",
+		"spellName": "BULISIBAN"
+	},
+	{
+		"chineseName": "布罗肯希尔，澳大利亚",
+		"englishName": "Australia/Broken_Hill",
+		"spellName": "BULUOKENXIER"
+	},
+	{
+		"chineseName": "堪培拉，澳大利亚",
+		"englishName": "Australia/Canberra",
+		"spellName": "KANPEILA"
+	},
+	{
+		"chineseName": "柯里，澳大利亚",
+		"englishName": "Australia/Currie",
+		"spellName": "KELI"
+	},
+	{
+		"chineseName": "达尔文，澳大利亚",
+		"englishName": "Australia/Darwin",
+		"spellName": "DAERWEN"
+	},
+	{
+		"chineseName": "尤克拉，澳大利亚",
+		"englishName": "Australia/Eucla",
+		"spellName": "YOUKELA"
+	},
+	{
+		"chineseName": "霍巴特，澳大利亚",
+		"englishName": "Australia/Hobart",
+		"spellName": "HUOBATE"
+	},
+	{
+		"chineseName": "林德曼，澳大利亚",
+		"englishName": "Australia/Lindeman",
+		"spellName": "LINDEMAN"
+	},
+	{
+		"chineseName": "豪勋爵，澳大利亚",
+		"englishName": "Australia/Lord_Howe",
+		"spellName": "HAOXUNJUE"
+	},
+	{
+		"chineseName": "墨尔本，澳大利亚",
+		"englishName": "Australia/Melbourne",
+		"spellName": "MOERBEN"
+	},
+	{
+		"chineseName": "新南威尔士州，澳大利亚",
+		"englishName": "Australia/NSW",
+		"spellName": "XINNANWEIERSHIZHOU"
+	},
+	{
+		"chineseName": "澳大利亚北部",
+		"englishName": "Australia/North",
+		"spellName": "AODALIYABEIBU"
+	},
+	{
+		"chineseName": "珀斯，澳大利亚",
+		"englishName": "Australia/Perth",
+		"spellName": "POSI"
+	},
+	{
+		"chineseName": "昆士兰，澳大利亚",
+		"englishName": "Australia/Queensland",
+		"spellName": "KUNSHILAN"
+	},
+	{
+		"chineseName": "澳大利亚南部",
+		"englishName": "Australia/South",
+		"spellName": "AODALIYANANBU"
+	},
+	{
+		"chineseName": "悉尼，澳大利亚",
+		"englishName": "Australia/Sydney",
+		"spellName": "XINI"
+	},
+	{
+		"chineseName": "塔斯马尼亚州，澳大利亚",
+		"englishName": "Australia/Tasmania",
+		"spellName": "TASIMANIYAZHOU"
+	},
+	{
+		"chineseName": "维多利亚，澳大利亚",
+		"englishName": "Australia/Victoria",
+		"spellName": "WEIDUOLIYA"
+	},
+	{
+		"chineseName": "澳大利亚西",
+		"englishName": "Australia/West",
+		"spellName": "AODALIYAXI"
+	},
+	{
+		"chineseName": "扬科维纳，澳大利亚",
+		"englishName": "Australia/Yancowinna",
+		"spellName": "YANGKEWEINA"
+	},
+	{
+		"chineseName": "阿克雷州，巴西",
+		"englishName": "Brazil/Acre",
+		"spellName": "AKELEIZHOU"
+	},
+	{
+		"chineseName": "迪诺罗尼亚，巴西",
+		"englishName": "Brazil/DeNoronha",
+		"spellName": "DINUOLUONIYA"
+	},
+	{
+		"chineseName": "巴西东部",
+		"englishName": "Brazil/East",
+		"spellName": "BAXIDONGBU"
+	},
+	{
+		"chineseName": "巴西西部",
+		"englishName": "Brazil/West",
+		"spellName": "BAXIXIBU"
+	},
+	{
+		"chineseName": "大西洋，加拿大",
+		"englishName": "Canada/Atlantic",
+		"spellName": "DAXIYANG"
+	},
+	{
+		"chineseName": "加拿大中部",
+		"englishName": "Canada/Central",
+		"spellName": "JIANADAZHONGBU"
+	},
+	{
+		"chineseName": "东萨斯喀彻温，加拿大",
+		"englishName": "Canada/East-Saskatchewan",
+		"spellName": "DONGSASIKACHEWEN"
+	},
+	{
+		"chineseName": "加拿大东部",
+		"englishName": "Canada/Eastern",
+		"spellName": "JIANADADONGBU"
+	},
+	{
+		"chineseName": "安大略省，加拿大",
+		"englishName": "Canada/Mountain",
+		"spellName": "ANDALU:ESHENG"
+	},
+	{
+		"chineseName": "纽芬兰，加拿大",
+		"englishName": "Canada/Newfoundland",
+		"spellName": "NIUFENLAN"
+	},
+	{
+		"chineseName": "萨斯喀彻温，加拿大",
+		"englishName": "Canada/Saskatchewan",
+		"spellName": "SASIKACHEWEN"
+	},
+	{
+		"chineseName": "育空，加拿大",
+		"englishName": "Canada/Yukon",
+		"spellName": "YUKONG"
+	},
+	{
+		"chineseName": "大陆，智利",
+		"englishName": "Chile/Continental",
+		"spellName": "DALU"
+	},
+	{
+		"chineseName": "复活岛，智利",
+		"englishName": "Chile/EasterIsland",
+		"spellName": "FUHUODAO"
+	},
+	{
+		"chineseName": "古巴",
+		"englishName": "Cuba",
+		"spellName": "GUBA"
+	},
+	{
+		"chineseName": "欧洲东部时间",
+		"englishName": "EET",
+		"spellName": "OUZHOUDONGBUSHIJIAN"
+	},
+	{
+		"chineseName": "美东时间",
+		"englishName": "EST",
+		"spellName": "MEIDONGSHIJIAN"
+	},
+	{
+		"chineseName": "埃及",
+		"englishName": "Egypt",
+		"spellName": "AIJI"
+	},
+	{
+		"chineseName": "爱尔兰-都柏林",
+		"englishName": "Eire",
+		"spellName": "AIERLAN"
+	},
+	{
+		"chineseName": "阿姆斯特丹，欧洲",
+		"englishName": "Europe/Amsterdam",
+		"spellName": "AMUSITEDAN"
+	},
+	{
+		"chineseName": "安道尔，欧洲",
+		"englishName": "Europe/Andorra",
+		"spellName": "ANDAOER"
+	},
+	{
+		"chineseName": "阿斯特拉罕，欧洲",
+		"englishName": "Europe/Astrakhan",
+		"spellName": "ASITELAHAN"
+	},
+	{
+		"chineseName": "雅典，欧洲",
+		"englishName": "Europe/Athens",
+		"spellName": "YADIAN"
+	},
+	{
+		"chineseName": "贝尔法斯特，欧洲",
+		"englishName": "Europe/Belfast",
+		"spellName": "BEIERFASITE"
+	},
+	{
+		"chineseName": "贝尔格莱德，欧洲",
+		"englishName": "Europe/Belgrade",
+		"spellName": "BEIERGELAIDE"
+	},
+	{
+		"chineseName": "柏林，欧洲",
+		"englishName": "Europe/Berlin",
+		"spellName": "BOLIN"
+	},
+	{
+		"chineseName": "布拉迪斯拉发，欧洲",
+		"englishName": "Europe/Bratislava",
+		"spellName": "BULADISILAFA"
+	},
+	{
+		"chineseName": "布鲁塞尔，欧洲",
+		"englishName": "Europe/Brussels",
+		"spellName": "BULUSAIER"
+	},
+	{
+		"chineseName": "布加勒斯特，欧洲",
+		"englishName": "Europe/Bucharest",
+		"spellName": "BUJIALESITE"
+	},
+	{
+		"chineseName": "布达佩斯，欧洲",
+		"englishName": "Europe/Budapest",
+		"spellName": "BUDAPEISI"
+	},
+	{
+		"chineseName": "布辛，欧洲",
+		"englishName": "Europe/Busingen",
+		"spellName": "BUXIN"
+	},
+	{
+		"chineseName": "基希讷乌，欧洲",
+		"englishName": "Europe/Chisinau",
+		"spellName": "JIXINEWU"
+	},
+	{
+		"chineseName": "哥本哈根，欧洲",
+		"englishName": "Europe/Copenhagen",
+		"spellName": "GEBENHAGEN"
+	},
+	{
+		"chineseName": "都柏林，欧洲",
+		"englishName": "Europe/Dublin",
+		"spellName": "DOUBOLIN"
+	},
+	{
+		"chineseName": "直布罗陀，欧洲",
+		"englishName": "Europe/Gibraltar",
+		"spellName": "ZHIBULUOTUO"
+	},
+	{
+		"chineseName": "格恩西岛，欧洲",
+		"englishName": "Europe/Guernsey",
+		"spellName": "GEENXIDAO"
+	},
+	{
+		"chineseName": "赫尔辛基，欧洲",
+		"englishName": "Europe/Helsinki",
+		"spellName": "HEERXINJI"
+	},
+	{
+		"chineseName": "马恩岛，欧洲",
+		"englishName": "Europe/Isle_of_Man",
+		"spellName": "MAENDAO"
+	},
+	{
+		"chineseName": "新泽西，欧洲",
+		"englishName": "Europe/Jersey",
+		"spellName": "XINZEXI"
+	},
+	{
+		"chineseName": "加里宁格勒，欧洲",
+		"englishName": "Europe/Kaliningrad",
+		"spellName": "JIALININGGELE"
+	},
+	{
+		"chineseName": "基辅，欧洲",
+		"englishName": "Europe/Kiev",
+		"spellName": "JIFU"
+	},
+	{
+		"chineseName": "基洛夫，欧洲",
+		"englishName": "Europe/Kirov",
+		"spellName": "JILUOFU"
+	},
+	{
+		"chineseName": "里斯本，欧洲",
+		"englishName": "Europe/Lisbon",
+		"spellName": "LISIBEN"
+	},
+	{
+		"chineseName": "卢布尔雅那，欧洲",
+		"englishName": "Europe/Ljubljana",
+		"spellName": "LUBUERYANEI"
+	},
+	{
+		"chineseName": "伦敦，欧洲",
+		"englishName": "Europe/London",
+		"spellName": "LUNDUN"
+	},
+	{
+		"chineseName": "卢森堡，欧洲",
+		"englishName": "Europe/Luxembourg",
+		"spellName": "LUSENBAO"
+	},
+	{
+		"chineseName": "马德里，欧洲",
+		"englishName": "Europe/Madrid",
+		"spellName": "MADELI"
+	},
+	{
+		"chineseName": "马耳他，欧洲",
+		"englishName": "Europe/Malta",
+		"spellName": "MAERTA"
+	},
+	{
+		"chineseName": "玛丽港，欧洲",
+		"englishName": "Europe/Mariehamn",
+		"spellName": "MALIGANG"
+	},
+	{
+		"chineseName": "明斯克，欧洲",
+		"englishName": "Europe/Minsk",
+		"spellName": "MINGSIKE"
+	},
+	{
+		"chineseName": "摩纳哥，欧洲",
+		"englishName": "Europe/Monaco",
+		"spellName": "MONAGE"
+	},
+	{
+		"chineseName": "莫斯科，欧洲",
+		"englishName": "Europe/Moscow",
+		"spellName": "MOSIKE"
+	},
+	{
+		"chineseName": "尼科西亚，欧洲",
+		"englishName": "Europe/Nicosia",
+		"spellName": "NIKEXIYA"
+	},
+	{
+		"chineseName": "奥斯陆，欧洲",
+		"englishName": "Europe/Oslo",
+		"spellName": "AOSILU"
+	},
+	{
+		"chineseName": "巴黎，欧洲",
+		"englishName": "Europe/Paris",
+		"spellName": "BALI"
+	},
+	{
+		"chineseName": "波德戈里察，欧洲",
+		"englishName": "Europe/Podgorica",
+		"spellName": "BODEGELICHA"
+	},
+	{
+		"chineseName": "布拉格，欧洲",
+		"englishName": "Europe/Prague",
+		"spellName": "BULAGE"
+	},
+	{
+		"chineseName": "里加，欧洲",
+		"englishName": "Europe/Riga",
+		"spellName": "LIJIA"
+	},
+	{
+		"chineseName": "罗马，欧洲",
+		"englishName": "Europe/Rome",
+		"spellName": "LUOMA"
+	},
+	{
+		"chineseName": "萨马拉，欧洲",
+		"englishName": "Europe/Samara",
+		"spellName": "SAMALA"
+	},
+	{
+		"chineseName": "圣马力诺，欧洲",
+		"englishName": "Europe/San_Marino",
+		"spellName": "SHENGMALINUO"
+	},
+	{
+		"chineseName": "萨拉热窝，欧洲",
+		"englishName": "Europe/Sarajevo",
+		"spellName": "SALAREWO"
+	},
+	{
+		"chineseName": "萨拉托夫，欧洲",
+		"englishName": "Europe/Saratov",
+		"spellName": "SALATUOFU"
+	},
+	{
+		"chineseName": "辛菲罗波尔，欧洲",
+		"englishName": "Europe/Simferopol",
+		"spellName": "XINFEILUOBOER"
+	},
+	{
+		"chineseName": "斯科普里，欧洲",
+		"englishName": "Europe/Skopje",
+		"spellName": "SIKEPULI"
+	},
+	{
+		"chineseName": "索非亚，欧洲",
+		"englishName": "Europe/Sofia",
+		"spellName": "SUOFEIYA"
+	},
+	{
+		"chineseName": "斯德哥尔摩，欧洲",
+		"englishName": "Europe/Stockholm",
+		"spellName": "SIDEGEERMO"
+	},
+	{
+		"chineseName": "塔林，欧洲",
+		"englishName": "Europe/Tallinn",
+		"spellName": "TALIN"
+	},
+	{
+		"chineseName": "地拉那，欧洲",
+		"englishName": "Europe/Tirane",
+		"spellName": "DILANEI"
+	},
+	{
+		"chineseName": "蒂拉斯波尔，欧洲",
+		"englishName": "Europe/Tiraspol",
+		"spellName": "DILASIBOER"
+	},
+	{
+		"chineseName": "乌里扬诺夫斯克，欧洲",
+		"englishName": "Europe/Ulyanovsk",
+		"spellName": "WULIYANGNUOFUSIKE"
+	},
+	{
+		"chineseName": "乌日哥罗德，欧洲",
+		"englishName": "Europe/Uzhgorod",
+		"spellName": "WURIGELUODE"
+	},
+	{
+		"chineseName": "瓦杜兹，欧洲",
+		"englishName": "Europe/Vaduz",
+		"spellName": "WADUZI"
+	},
+	{
+		"chineseName": "梵蒂冈，欧洲",
+		"englishName": "Europe/Vatican",
+		"spellName": "FANDIGANG"
+	},
+	{
+		"chineseName": "维也纳，欧洲",
+		"englishName": "Europe/Vienna",
+		"spellName": "WEIYENA"
+	},
+	{
+		"chineseName": "维尔纽斯，欧洲",
+		"englishName": "Europe/Vilnius",
+		"spellName": "WEIERNIUSI"
+	},
+	{
+		"chineseName": "伏尔加格勒，欧洲",
+		"englishName": "Europe/Volgograd",
+		"spellName": "FUERJIAGELE"
+	},
+	{
+		"chineseName": "华沙，欧洲",
+		"englishName": "Europe/Warsaw",
+		"spellName": "HUASHA"
+	},
+	{
+		"chineseName": "萨格勒布，欧洲",
+		"englishName": "Europe/Zagreb",
+		"spellName": "SAGELEBU"
+	},
+	{
+		"chineseName": "扎波罗热，欧洲",
+		"englishName": "Europe/Zaporozhye",
+		"spellName": "ZHABOLUORE"
+	},
+	{
+		"chineseName": "苏黎世，欧洲",
+		"englishName": "Europe/Zurich",
+		"spellName": "SULISHI"
+	},
+	{
+		"chineseName": "英国 - 爱尔兰",
+		"englishName": "GB-Eire",
+		"spellName": "YINGGUOAIERLAN"
+	},
+	{
+		"chineseName": "格林威治标准时间",
+		"englishName": "GMT",
+		"spellName": "GELINWEIZHIBIAOZHUNSHIJIAN"
+	},
+	{
+		"chineseName": "格林威治",
+		"englishName": "Greenwich",
+		"spellName": "GELINWEIZHI"
+	},
+	{
+		"chineseName": "冰岛",
+		"englishName": "Iceland",
+		"spellName": "BINGDAO"
+	},
+	{
+		"chineseName": "塔那那利佛，印度",
+		"englishName": "Indian/Antananarivo",
+		"spellName": "TANEINEILIFO"
+	},
+	{
+		"chineseName": "查戈斯，印度",
+		"englishName": "Indian/Chagos",
+		"spellName": "CHAGESI"
+	},
+	{
+		"chineseName": "圣诞岛，印度",
+		"englishName": "Indian/Christmas",
+		"spellName": "SHENGDANDAO"
+	},
+	{
+		"chineseName": "科科斯，印度",
+		"englishName": "Indian/Cocos",
+		"spellName": "KEKESI"
+	},
+	{
+		"chineseName": "科摩罗，印度",
+		"englishName": "Indian/Comoro",
+		"spellName": "KEMOLUO"
+	},
+	{
+		"chineseName": "凯尔盖朗，印度",
+		"englishName": "Indian/Kerguelen",
+		"spellName": "KAIERGAILANG"
+	},
+	{
+		"chineseName": "马埃，印度",
+		"englishName": "Indian/Mahe",
+		"spellName": "MAAI"
+	},
+	{
+		"chineseName": "马尔代夫，印度",
+		"englishName": "Indian/Maldives",
+		"spellName": "MAERDAIFU"
+	},
+	{
+		"chineseName": "毛里求斯，印度",
+		"englishName": "Indian/Mauritius",
+		"spellName": "MAOLIQIUSI"
+	},
+	{
+		"chineseName": "马约特，印度",
+		"englishName": "Indian/Mayotte",
+		"spellName": "MAYUETE"
+	},
+	{
+		"chineseName": "留尼汪，印度",
+		"englishName": "Indian/Reunion",
+		"spellName": "LIUNIWANG"
+	},
+	{
+		"chineseName": "伊朗",
+		"englishName": "Iran",
+		"spellName": "YILANG"
+	},
+	{
+		"chineseName": "以色列",
+		"englishName": "Israel",
+		"spellName": "YISELIE"
+	},
+	{
+		"chineseName": "日本",
+		"englishName": "Japan",
+		"spellName": "RIBEN"
+	},
+	{
+		"chineseName": "夸贾林",
+		"englishName": "Kwajalein",
+		"spellName": "KUAJIALIN"
+	},
+	{
+		"chineseName": "利比亚",
+		"englishName": "Libya",
+		"spellName": "LIBIYA"
+	},
+	{
+		"chineseName": "北下诺特，墨西哥",
+		"englishName": "Mexico/BajaNorte",
+		"spellName": "BEIXIANUOTE"
+	},
+	{
+		"chineseName": "北下苏尔，墨西哥",
+		"englishName": "Mexico/BajaSur",
+		"spellName": "BEIXIASUER"
+	},
+	{
+		"chineseName": "墨西哥",
+		"englishName": "Mexico/General",
+		"spellName": "MOXIGE"
+	},
+	{
+		"chineseName": "纳瓦霍",
+		"englishName": "Navajo",
+		"spellName": "NAWAHUO"
+	},
+	{
+		"chineseName": "中国",
+		"englishName": "PRC",
+		"spellName": "ZHONGGUO"
+	},
+	{
+		"chineseName": "阿皮亚，太平洋",
+		"englishName": "Pacific/Apia",
+		"spellName": "APIYA"
+	},
+	{
+		"chineseName": "奥克兰，太平洋",
+		"englishName": "Pacific/Auckland",
+		"spellName": "AOKELAN"
+	},
+	{
+		"chineseName": "维尔，太平洋",
+		"englishName": "Pacific/Bougainville",
+		"spellName": "WEIER"
+	},
+	{
+		"chineseName": "查塔姆，太平洋",
+		"englishName": "Pacific/Chatham",
+		"spellName": "CHATAMU"
+	},
+	{
+		"chineseName": "特鲁克，太平洋",
+		"englishName": "Pacific/Chuuk",
+		"spellName": "TELUKE"
+	},
+	{
+		"chineseName": "复活节岛，太平洋",
+		"englishName": "Pacific/Easter",
+		"spellName": "FUHUOJIEDAO"
+	},
+	{
+		"chineseName": "埃法特，太平洋",
+		"englishName": "Pacific/Efate",
+		"spellName": "AIFATE"
+	},
+	{
+		"chineseName": "恩德伯里，太平洋",
+		"englishName": "Pacific/Enderbury",
+		"spellName": "ENDEBOLI"
+	},
+	{
+		"chineseName": "法考福，太平洋",
+		"englishName": "Pacific/Fakaofo",
+		"spellName": "FAKAOFU"
+	},
+	{
+		"chineseName": "斐济，太平洋",
+		"englishName": "Pacific/Fiji",
+		"spellName": "FEIJI"
+	},
+	{
+		"chineseName": "福纳，太平洋",
+		"englishName": "Pacific/Funafuti",
+		"spellName": "FUNA"
+	},
+	{
+		"chineseName": "加拉帕戈斯，太平洋",
+		"englishName": "Pacific/Galapagos",
+		"spellName": "JIALAPAGESI"
+	},
+	{
+		"chineseName": "甘比尔，太平洋",
+		"englishName": "Pacific/Gambier",
+		"spellName": "GANBIER"
+	},
+	{
+		"chineseName": "瓜达尔卡纳尔岛，太平洋",
+		"englishName": "Pacific/Guadalcanal",
+		"spellName": "GUADAERKANAERDAO"
+	},
+	{
+		"chineseName": "关岛，太平洋",
+		"englishName": "Pacific/Guam",
+		"spellName": "GUANDAO"
+	},
+	{
+		"chineseName": "火奴鲁鲁，太平洋",
+		"englishName": "Pacific/Honolulu",
+		"spellName": "HUONULULU"
+	},
+	{
+		"chineseName": "约翰斯顿，太平洋",
+		"englishName": "Pacific/Johnston",
+		"spellName": "YUEHANSIDUN"
+	},
+	{
+		"chineseName": "克里斯马斯，太平洋",
+		"englishName": "Pacific/Kiritimati",
+		"spellName": "KELISIMASI"
+	},
+	{
+		"chineseName": "科斯雷，太平洋",
+		"englishName": "Pacific/Kosrae",
+		"spellName": "KESILEI"
+	},
+	{
+		"chineseName": "夸贾林，太平洋",
+		"englishName": "Pacific/Kwajalein",
+		"spellName": "KUAJIALIN"
+	},
+	{
+		"chineseName": "马朱罗，太平洋",
+		"englishName": "Pacific/Majuro",
+		"spellName": "MAZHULUO"
+	},
+	{
+		"chineseName": "马克萨斯，太平洋",
+		"englishName": "Pacific/Marquesas",
+		"spellName": "MAKESASI"
+	},
+	{
+		"chineseName": "中途岛，太平洋",
+		"englishName": "Pacific/Midway",
+		"spellName": "ZHONGTUDAO"
+	},
+	{
+		"chineseName": "瑙鲁，太平洋",
+		"englishName": "Pacific/Nauru",
+		"spellName": "NAOLU"
+	},
+	{
+		"chineseName": "纽埃，太平洋",
+		"englishName": "Pacific/Niue",
+		"spellName": "NIUAI"
+	},
+	{
+		"chineseName": "诺福克，太平洋",
+		"englishName": "Pacific/Norfolk",
+		"spellName": "NUOFUKE"
+	},
+	{
+		"chineseName": "努美阿，太平洋",
+		"englishName": "Pacific/Noumea",
+		"spellName": "NUMEIA"
+	},
+	{
+		"chineseName": "帕果帕果，太平洋",
+		"englishName": "Pacific/Pago_Pago",
+		"spellName": "PAGUOPAGUO"
+	},
+	{
+		"chineseName": "帕劳，太平洋",
+		"englishName": "Pacific/Palau",
+		"spellName": "PALAO"
+	},
+	{
+		"chineseName": "皮特凯恩，太平洋",
+		"englishName": "Pacific/Pitcairn",
+		"spellName": "PITEKAIEN"
+	},
+	{
+		"chineseName": "波纳佩，太平洋",
+		"englishName": "Pacific/Ponape",
+		"spellName": "BONAPEI"
+	},
+	{
+		"chineseName": "莫尔兹比港，太平洋",
+		"englishName": "Pacific/Port_Moresby",
+		"spellName": "MOERZIBIGANG"
+	},
+	{
+		"chineseName": "拉罗汤加，太平洋",
+		"englishName": "Pacific/Rarotonga",
+		"spellName": "LALUOTANGJIA"
+	},
+	{
+		"chineseName": "塞班岛，太平洋",
+		"englishName": "Pacific/Saipan",
+		"spellName": "SAIBANDAO"
+	},
+	{
+		"chineseName": "萨摩亚，太平洋",
+		"englishName": "Pacific/Samoa",
+		"spellName": "SAMOYA"
+	},
+	{
+		"chineseName": "塔希提，太平洋",
+		"englishName": "Pacific/Tahiti",
+		"spellName": "TAXITI"
+	},
+	{
+		"chineseName": "塔拉瓦，太平洋",
+		"englishName": "Pacific/Tarawa",
+		"spellName": "TALAWA"
+	},
+	{
+		"chineseName": "汤加塔布，太平洋",
+		"englishName": "Pacific/Tongatapu",
+		"spellName": "TANGJIATABU"
+	},
+	{
+		"chineseName": "威克岛，太平洋",
+		"englishName": "Pacific/Wake",
+		"spellName": "WEIKEDAO"
+	},
+	{
+		"chineseName": "沃利斯，太平洋",
+		"englishName": "Pacific/Wallis",
+		"spellName": "WOLISI"
+	},
+	{
+		"chineseName": "波兰",
+		"englishName": "Poland",
+		"spellName": "BOLAN"
+	},
+	{
+		"chineseName": "葡萄牙",
+		"englishName": "Portugal",
+		"spellName": "PUTAOYA"
+	},
+	{
+		"chineseName": "韩国",
+		"englishName": "ROK",
+		"spellName": "HANGUO"
+	},
+	{
+		"chineseName": "土耳其",
+		"englishName": "Turkey",
+		"spellName": "TUERQI"
+	},
+	{
+		"chineseName": "开普敦",
+		"englishName": "UCT",
+		"spellName": "KAIPUDUN"
+	},
+	{
+		"chineseName": "阿拉斯加，美洲",
+		"englishName": "US/Alaska",
+		"spellName": "ALASIJIA"
+	},
+	{
+		"chineseName": "阿留申，美洲",
+		"englishName": "US/Aleutian",
+		"spellName": "ALIUSHEN"
+	},
+	{
+		"chineseName": "亚利桑那，美洲",
+		"englishName": "US/Arizona",
+		"spellName": "YALISANGNEI"
+	},
+	{
+		"chineseName": "美洲中部",
+		"englishName": "US/Central",
+		"spellName": "MEIZHOUZHONGBU"
+	},
+	{
+		"chineseName": "东印第安纳，美洲",
+		"englishName": "US/East-Indiana",
+		"spellName": "DONGYINDIANNA"
+	},
+	{
+		"chineseName": "美洲东部",
+		"englishName": "US/Eastern",
+		"spellName": "MEIZHOUDONGBU"
+	},
+	{
+		"chineseName": "夏威夷，美洲",
+		"englishName": "US/Hawaii",
+		"spellName": "XIAWEIYI"
+	},
+	{
+		"chineseName": "斯塔克",
+		"englishName": "US/Indiana-Starke",
+		"spellName": "SITAKE"
+	},
+	{
+		"chineseName": "密歇根州",
+		"englishName": "US/Michigan",
+		"spellName": "MIXIEGENZHOU"
+	},
+	{
+		"chineseName": "丹奈利峰",
+		"englishName": "US/Mountain",
+		"spellName": "DANNAILIFENG"
+	},
+	{
+		"chineseName": "太平洋，美洲",
+		"englishName": "US/Pacific",
+		"spellName": "TAIPINGYANG"
+	},
+	{
+		"chineseName": "萨摩亚，美洲",
+		"englishName": "US/Samoa",
+		"spellName": "SAMOYA"
+	},
+	{
+		"chineseName": "世界标准时间",
+		"englishName": "UTC",
+		"spellName": "SHIJIEBIAOZHUNSHIJIAN"
+	},
+	{
+		"chineseName": "祖鲁",
+		"englishName": "Zulu",
+		"spellName": "ZULU"
 	}
 ]

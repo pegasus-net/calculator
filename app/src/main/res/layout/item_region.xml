@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#FFE2E4E7" />
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#FFF9F9F9"
+        android:gravity="center|start"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        android:text="A"
+        android:textColor="#ff999999"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingStart="13dp"
+        android:paddingEnd="13dp"
+        android:text="阿比让（科特迪瓦）"
+        android:textColor="#ff333333"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

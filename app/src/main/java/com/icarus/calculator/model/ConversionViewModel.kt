@@ -1,4 +1,4 @@
-package com.icarus.calculator.view_model
+package com.icarus.calculator.model
 
 import android.text.Editable
 import android.text.Selection

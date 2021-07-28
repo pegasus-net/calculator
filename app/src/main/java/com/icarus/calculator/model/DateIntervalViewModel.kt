@@ -1,9 +1,9 @@
-package com.icarus.calculator.view_model
+package com.icarus.calculator.model
 
-import a.icarus.utils.Logger
 import android.content.Context
 import androidx.databinding.ObservableField
-import com.icarus.calculator.view.DatePickerDialog
+import com.icarus.calculator.customView.DatePickerDialog
+import com.icarus.calculator.engine.DateCalculator
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -36,26 +36,49 @@ class DateIntervalViewModel {
     }
 
     fun showDialog(context: Context, which: Int) {
-        DatePickerDialog(context).setConfirmListener { calendar, _, _, _, _, _ ->
-            when (which) {
-                0 -> {
+
+        when (which) {
+            0 -> {
+                DatePickerDialog(
+                    context,
+                    startCalendar
+                ).setConfirmListener { calendar, _, _, _, _, _ ->
                     startCalendar = calendar
                     start.set(dateFormat.format(calendar.time))
-                }
-                1 -> {
+                    calculateInterval()
+                }.show()
+            }
+            1 -> {
+                DatePickerDialog(
+                    context,
+                    endCalendar
+                ).setConfirmListener { calendar, _, _, _, _, _ ->
                     endCalendar = calendar
                     end.set(dateFormat.format(calendar.time))
-                }
+                    calculateInterval()
+                }.show()
             }
-            calculateInterval()
-        }.show()
+        }
+
     }
 
     private fun calculateInterval() {
-        val startCalendar = this.startCalendar
-        val endCalendar = this.endCalendar
+        val startCalendar = this.startCalendar?.clone() as Calendar?
+        val endCalendar = this.endCalendar?.clone() as Calendar?
         if (startCalendar != null && endCalendar != null) {
-            Logger.t("Calculate")
+            val calculator =
+                if (startCalendar.timeInMillis <= endCalendar.timeInMillis) {
+                    DateCalculator(startCalendar, endCalendar)
+                } else {
+                    DateCalculator(endCalendar, startCalendar, true)
+                }
+            day.set(calculator.get(0))
+            workDay.set(calculator.get(1))
+            week.set(calculator.get(2))
+            month.set(calculator.get(3))
+            year.set(calculator.get(4))
+            hour.set(calculator.get(5))
+            minute.set(calculator.get(6))
         }
     }
 }

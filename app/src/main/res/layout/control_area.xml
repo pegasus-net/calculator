@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="horizontal">
 
-    <com.icarus.calculator.view.CalculatorSetButton
+    <com.icarus.calculator.customView.CalculatorSetButton
         android:id="@+id/history"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <com.icarus.calculator.view.CalculatorSetButton
+    <com.icarus.calculator.customView.CalculatorSetButton
         android:id="@+id/capital"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <com.icarus.calculator.view.CalculatorSetButton
+    <com.icarus.calculator.customView.CalculatorSetButton
         android:id="@+id/vibrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <com.icarus.calculator.view.CalculatorSetButton
+    <com.icarus.calculator.customView.CalculatorSetButton
         android:id="@+id/voice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <com.icarus.calculator.view.CalculatorSetButton
+    <com.icarus.calculator.customView.CalculatorSetButton
         android:id="@+id/copy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

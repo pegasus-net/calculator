@@ -4,7 +4,7 @@ import a.icarus.component.BaseFragment
 import android.view.View
 import android.widget.ImageView
 import com.icarus.calculator.R
-import com.icarus.calculator.ui.activity.DataActivity
+import com.icarus.calculator.ui.activity.DateActivity
 import com.icarus.calculator.ui.activity.HexadecimalConversionActivity
 import com.icarus.calculator.ui.activity.UnitActivity
 import com.icarus.calculator.util.startActivity
@@ -25,7 +25,7 @@ class ToolFragment : BaseFragment() {
             UnitActivity.start(mActivity, UnitActivity.VOLUME)
         }
         findViewById<ImageView>(R.id.tool_4).setOnClickListener {
-            startActivity(DataActivity::class.java)
+            startActivity(DateActivity::class.java)
         }
         findViewById<ImageView>(R.id.tool_5).setOnClickListener {
             UnitActivity.start(mActivity, UnitActivity.MONEY)

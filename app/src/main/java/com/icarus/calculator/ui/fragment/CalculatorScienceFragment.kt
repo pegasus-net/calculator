@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.icarus.calculator.R
 import com.icarus.calculator.engine.InputManager
-import com.icarus.calculator.view.CalculatorInputButton
-import com.icarus.calculator.view.CalculatorSetButton
+import com.icarus.calculator.customView.CalculatorInputButton
+import com.icarus.calculator.customView.CalculatorSetButton
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

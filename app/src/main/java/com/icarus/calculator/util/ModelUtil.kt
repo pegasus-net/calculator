@@ -2,7 +2,7 @@ package com.icarus.calculator.util
 
 import a.icarus.utils.SoftInputUtil
 import androidx.databinding.BindingAdapter
-import com.icarus.calculator.view.CalculatorInputButton
+import com.icarus.calculator.customView.CalculatorInputButton
 
 
 object ModelUtil {

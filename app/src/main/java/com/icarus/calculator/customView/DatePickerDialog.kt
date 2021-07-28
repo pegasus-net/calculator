@@ -1,4 +1,4 @@
-package com.icarus.calculator.view
+package com.icarus.calculator.customView
 
 import a.icarus.component.BaseDialog
 import android.annotation.SuppressLint
@@ -13,7 +13,11 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 @SuppressLint("SetTextI18n")
-class DatePickerDialog(context: Context, var timeEnable: Boolean = true) :
+class DatePickerDialog(
+    context: Context,
+    var cal: Calendar? = null,
+    var timeEnable: Boolean = true
+) :
     BaseDialog(context, R.layout.dialog_date_picker) {
 
     private val numberPickers = ArrayList<NumberPicker>()
@@ -38,7 +42,7 @@ class DatePickerDialog(context: Context, var timeEnable: Boolean = true) :
         dateContainer = findViewById(R.id.date_container)
         timeContainer = findViewById(R.id.time_container)
 
-        val calendar = Calendar.getInstance()
+        val calendar = cal ?: Calendar.getInstance()
         max[2] = calendar.getActualMaximum(Calendar.DAY_OF_MONTH)
         numbers.add(calendar.get(Calendar.YEAR))
         numbers.add(calendar.get(Calendar.MONTH) + 1)
@@ -95,6 +99,7 @@ class DatePickerDialog(context: Context, var timeEnable: Boolean = true) :
             listener?.run {
                 val instance = Calendar.getInstance()
                 instance.set(numbers[0], numbers[1] - 1, numbers[2], numbers[3], numbers[4], 0)
+                instance.set(Calendar.MILLISECOND, 0)
                 this(instance, numbers[0], numbers[1], numbers[2], numbers[3], numbers[4])
             }
             dismiss()

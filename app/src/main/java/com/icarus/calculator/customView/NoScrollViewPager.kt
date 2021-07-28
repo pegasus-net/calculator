@@ -1,4 +1,4 @@
-package com.icarus.calculator.view
+package com.icarus.calculator.customView
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,6 +10,7 @@ class NoScrollViewPager(context: Context, attr: AttributeSet?) : ViewPager(conte
     constructor(context: Context) : this(context, null)
 
     var forbidScroll = true
+    var forbidAnim = true
 
     @SuppressLint("ClickableViewAccessibility")
     override fun onTouchEvent(ev: MotionEvent?): Boolean {
@@ -17,9 +18,10 @@ class NoScrollViewPager(context: Context, attr: AttributeSet?) : ViewPager(conte
     }
 
     override fun onInterceptTouchEvent(ev: MotionEvent?): Boolean {
-        return !forbidScroll &&super.onInterceptTouchEvent(ev)
+        return !forbidScroll && super.onInterceptTouchEvent(ev)
     }
+
     override fun setCurrentItem(item: Int) {
-        super.setCurrentItem(item, !forbidScroll)
+        super.setCurrentItem(item, !forbidScroll && !forbidAnim)
     }
 }

@@ -1,9 +1,8 @@
-package com.icarus.calculator.view
+package com.icarus.calculator.customView
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.ScrollView
-import androidx.constraintlayout.widget.ConstraintLayout
 
 class ScrollBottom(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     ScrollView(context, attrs, defStyleAttr) {

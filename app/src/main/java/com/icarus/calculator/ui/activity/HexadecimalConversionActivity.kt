@@ -8,7 +8,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.icarus.calculator.R
 import com.icarus.calculator.databinding.ConversionBinding
-import com.icarus.calculator.view_model.ConversionViewModel
+import com.icarus.calculator.model.ConversionViewModel
 
 class HexadecimalConversionActivity : BaseActivity() {
 

@@ -1,4 +1,4 @@
-package com.icarus.calculator.view
+package com.icarus.calculator.customView
 
 import android.content.Context
 import android.util.AttributeSet
@@ -17,6 +17,7 @@ class DateItemView(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     private var itemName: TextView
     private var itemResult: TextView
     private var itemTip: TextView
+    private var line: View
 
     init {
         LayoutInflater.from(context).inflate(R.layout.item_result, this)
@@ -28,7 +29,8 @@ class DateItemView(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
         itemResult.text = arr.getString(R.styleable.DateItemView_item_result)
         itemTip.text = arr.getString(R.styleable.DateItemView_item_tip)
         val boolean = arr.getBoolean(R.styleable.DateItemView_item_last, false)
-        findViewById<View>(R.id.split).visibility = if (boolean) GONE else VISIBLE
+        line = findViewById(R.id.split)
+        line.visibility = if (boolean) GONE else VISIBLE
         arr.recycle()
     }
 
@@ -36,8 +38,14 @@ class DateItemView(context: Context, attrs: AttributeSet?, defStyleAttr: Int) :
     companion object {
         @JvmStatic
         @BindingAdapter("item_result")
-        fun setItemResult(view: DateItemView, result: String) {
-            view.itemResult.text = result
+        fun setItemResult(view: DateItemView, result: String?) {
+            view.itemResult.text = result ?: ""
+        }
+
+        @JvmStatic
+        @BindingAdapter("item_last")
+        fun setItemLast(view: DateItemView, isLast: Boolean?) {
+            view.line.visibility = if (isLast == true) GONE else VISIBLE
         }
     }
 

@@ -1,4 +1,4 @@
-package com.icarus.calculator.view
+package com.icarus.calculator.customView
 
 import android.content.Context
 import android.graphics.*

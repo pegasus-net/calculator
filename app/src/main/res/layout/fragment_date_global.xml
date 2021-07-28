@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
 
+        <import type="android.view.View" />
+
         <variable
             name="model"
-            type="com.icarus.calculator.model.DateIntervalViewModel" />
+            type="com.icarus.calculator.model.DateGlobalViewModel" />
     </data>
 
     <FrameLayout
@@ -51,42 +52,31 @@
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:onClick="@{(v)->model.showDialog(context,0)}">
+                            android:layout_height="40dp">
 
                             <TextView
-                                android:id="@+id/textView7"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginEnd="8dp"
-                                android:text="@{model.start}"
+                                android:layout_marginEnd="13dp"
+                                android:text="@{model.system}"
                                 android:textColor="#ff333333"
                                 android:textSize="13sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                                app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <TextView
-                                android:id="@+id/textView9"
+                                android:id="@+id/textView6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="13dp"
-                                android:text="开始时间"
+                                android:text="系统时间"
                                 android:textColor="#ff333333"
                                 android:textSize="14sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
-                            <ImageView
-                                android:id="@+id/imageView"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="10dp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:srcCompat="@drawable/enter" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <View
@@ -95,34 +85,23 @@
                             android:background="@drawable/tool_line" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/toRegionListActivity"
                             android:layout_width="match_parent"
-                            android:layout_height="40dp"
-                            android:onClick="@{(v)->model.showDialog(context,1)}">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginEnd="8dp"
-                                android:text="@{model.end}"
-                                android:textColor="#ff333333"
-                                android:textSize="13sp"
-                                app:layout_constraintBottom_toBottomOf="parent"
-                                app:layout_constraintEnd_toStartOf="@id/imageView2"
-                                app:layout_constraintTop_toTopOf="parent" />
+                            android:layout_height="40dp">
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="13dp"
-                                android:text="结束时间"
+                                android:text="@{model.region}"
                                 android:textColor="#ff333333"
-                                android:textSize="14sp"
+                                android:textSize="13sp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
                             <ImageView
-                                android:id="@+id/imageView2"
+                                android:id="@+id/imageView"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="10dp"
@@ -151,46 +130,17 @@
                         <com.icarus.calculator.customView.DateItemView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:item_name="天"
-                            app:item_result="@{model.day}" />
+                            app:item_last="@{!model.useDaylight}"
+                            app:item_name="标准时间"
+                            app:item_result="@{model.standard}" />
 
                         <com.icarus.calculator.customView.DateItemView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            app:item_name="工作日"
-                            app:item_result="@{model.workDay}"
-                            app:item_tip="(不包含周六,周日)" />
-
-                        <com.icarus.calculator.customView.DateItemView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:item_name="周"
-                            app:item_result="@{model.week}" />
-
-                        <com.icarus.calculator.customView.DateItemView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:item_name="月"
-                            app:item_result="@{model.month}" />
-
-                        <com.icarus.calculator.customView.DateItemView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:item_name="年"
-                            app:item_result="@{model.year}" />
-
-                        <com.icarus.calculator.customView.DateItemView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:item_name="小时"
-                            app:item_result="@{model.hour}" />
-
-                        <com.icarus.calculator.customView.DateItemView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:visibility="@{model.useDaylight?View.VISIBLE:View.GONE}"
                             app:item_last="true"
-                            app:item_name="分钟"
-                            app:item_result="@{model.minute}" />
+                            app:item_name="夏令时"
+                            app:item_result="@{model.daylight}" />
                     </LinearLayout>
                 </LinearLayout>
 
